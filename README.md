@@ -13,4 +13,5 @@ Next open Minecraft launcher, go to Installations in the top bar, hover over qui
 
 ## Final Notes
 If you are suffering performance issues it is recommended to adjust the amount of memory assigned to the game, pefhaps from 2 to 4GB or even 8GB
+
 If you get a failed to start minecraft message from launching via minecraft-launcher, you will need to download 1.18.2 vanilla via the minecraft launcher by selecting New Installation from the installations tab, changing the version to release 1.18.2 (not the quilt one), wait for it to download and launch minecraft, close minecraft and launch quilt again.
