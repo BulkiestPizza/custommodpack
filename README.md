@@ -4,7 +4,7 @@ Minecraft Modpack merging HexMC and fabulously optimised
 ## Install 
 This modpack uses the quilt loader, instead of forge for faster, more optimised gameplay, It is recommended to use the [Prism Launcher](https://prismlauncher.org/download/) to install the modpack
 ### Prism Launcher
-Open Prism Launcher then navigate to Add instance -> Import from Zip with the pack downloaded from [releases](https://github.com/BulkiestPizza/custommodpack/releases/tag/Release) named PrismLauncher.zip after that launch the instance that you just imported
+Open Prism Launcher then navigate to Add instance -> Import from Zip with the pack downloaded from [releases](https://github.com/BulkiestPizza/custommodpack/releases/tag/Release) named HexMCxFabulouslyOptimised.zip after that launch the instance that you just imported
 
 ### Manunal install - Using Minecraft Launcher
 First download the quilt loader from [quiltmc](https://quiltmc.org/en/install/client/) choose version 1.18.2, keep loader version the default and install location default then click install
