@@ -1,0 +1,12 @@
+{
+  "name": "???",
+  "icon": "botania:gaia_head",
+  "category": "patchouli:boss_fights",
+  "sortnum": 6,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(k)0000000000000000000$()$(br2)The information has been lost to time. Perhaps the $(thing)Lexica Botania$() has information regarding this ritual.$(br2)$(k)0000000000000000000$()"
+    }
+  ]
+}

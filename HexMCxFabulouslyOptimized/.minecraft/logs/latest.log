@@ -1,0 +1,701 @@
+[15:42:55] [main/INFO]: Loading Minecraft 1.18.2 with Quilt Loader 0.17.10
+[15:42:55] [main/INFO]: Loading mappings: jar:file:/home/lachlan/.local/share/PrismLauncher/libraries/net/fabricmc/intermediary/1.18.2/intermediary-1.18.2.jar!/mappings/mappings.tiny
+[15:42:55] [main/INFO]: Preparing JARs on first launch, this may take a few seconds...
+[15:43:00] [ForkJoinPool-1-worker-7/WARN]: Warnings for mod "fabrishot"'s mod json:
+- Version ${version} does not respect SemVer -- comparison support is limited. "version" at  at line 4 column 26 path $.version
+[15:43:00] [ForkJoinPool-1-worker-1/WARN]: Warnings for mod "ears"'s mod json:
+- Version 1.4.5_01 does not respect SemVer -- comparison support is limited. "version" at  at line 4 column 24 path $.version
+[15:43:00] [ForkJoinPool-1-worker-11/WARN]: Warnings for mod "com_github_chocohead_fabric-asm"'s mod json:
+- Version v2.3 does not respect SemVer -- comparison support is limited. "version" at  at line 4 column 20 path $.version
+[15:43:00] [ForkJoinPool-1-worker-11/WARN]: Warnings for mod "terrablender"'s mod json:
+- Version 1.2.0.126 has more than 3 version components, which may not be fully supported. "version" at  at line 4 column 25 path $.version
+[15:43:00] [ForkJoinPool-1-worker-4/WARN]: Warnings for mod "create"'s mod json:
+- Version 0.5.0e-733 does not respect SemVer -- comparison support is limited. "version" at  at line 1 column 56 path $.version
+[15:43:00] [ForkJoinPool-1-worker-6/WARN]: Warnings for mod "dungeons_arise"'s mod json:
+- Unsupported root entry "credits" at  at line 12 column 12 path $.credits
+[15:43:00] [ForkJoinPool-1-worker-8/WARN]: Warnings for mod "registrate-fabric"'s mod json:
+- Version MC1.18.2-1.1.4 does not respect SemVer -- comparison support is limited. "version" at  at line 1 column 71 path $.version
+[15:43:01] [main/INFO]: Loading 240 mods:
+| Index | Mod                                               | ID                                                    | Version                          |
+|------:|---------------------------------------------------|-------------------------------------------------------|----------------------------------|
+|   130 | Adorn                                             | adorn                                                 | 3.5.0+1.18.2                     |
+|    33 | AdvancementInfo                                   | advancementinfo                                       | 1.18.2-fabric0.47.10-1.3.1       |
+|    31 | Animatica                                         | animatica                                             | 0.5+1.18.2                       |
+|    18 | AntiGhost                                         | antighost                                             | 1.18.2-fabric0.47.10-1.1.4       |
+|   193 | Architectury                                      | architectury                                          | 4.9.84                           |
+|    30 | Bad Packets                                       | badpackets                                            | 0.1.2                            |
+|   137 | Basic Shields [Fabric]                            | basicshields                                          | 1.3.0-1.18.2                     |
+|    87 | Bendy api                                         | bendy-lib                                             | 2.1.3-test2                      |
+|   151 | Better Combat                                     | bettercombat                                          | 1.4.4+1.18.2                     |
+|    45 | Better Mount HUD                                  | bettermounthud                                        | 1.1.4                            |
+|    11 | Borderless Mining                                 | borderlessmining                                      | 1.1.2+1.18.2                     |
+|    82 | Bosses of Mass Destruction (Beta)                 | bosses_of_mass_destruction                            | 1.3.8-1.18.2                     |
+|   127 | Botania                                           | botania                                               | 1.18.2-435-FABRIC                |
+|    92 | CIT Resewn                                        | citresewn                                             | 1.1.1+1.18.2                     |
+|    84 | CIT Resewn: Defaults                              | citresewn-defaults                                    | 1.1.1+1.18.2                     |
+|    13 | CaffeineConfig                                    | caffeineconfig                                        | 1.0.0+1.17                       |
+|   214 | Capes                                             | capes                                                 | 1.3.1+1.18.2                     |
+|    41 | Cardinal Components API                           | cardinal-components                                   | 4.2.0                            |
+|    70 | Cardinal Components API (base)                    | cardinal-components-base                              | 4.2.0                            |
+|    73 | Cardinal Components API (blocks)                  | cardinal-components-block                             | 4.2.0                            |
+|    83 | Cardinal Components API (chunks)                  | cardinal-components-chunk                             | 4.2.0                            |
+|    68 | Cardinal Components API (entities)                | cardinal-components-entity                            | 4.2.0                            |
+|    77 | Cardinal Components API (items)                   | cardinal-components-item                              | 4.2.0                            |
+|    58 | Cardinal Components API (scoreboard)              | cardinal-components-scoreboard                        | 4.2.0                            |
+|    55 | Cardinal Components API (world saves)             | cardinal-components-level                             | 4.2.0                            |
+|    97 | Cardinal Components API (worlds)                  | cardinal-components-world                             | 4.2.0                            |
+|   182 | Chunky                                            | chunky                                                | 1.2.164                          |
+|    19 | Cloth Config v6                                   | cloth-config                                          | 6.3.81                           |
+|   119 | Combat Roll                                       | combatroll                                            | 1.0.8+1.18.2                     |
+|   238 | Community Chest                                   | commuchest                                            | 1.0.0                            |
+|    96 | CompleteConfig                                    | completeconfig                                        | 1.0.0                            |
+|    46 | Continuity                                        | continuity                                            | 2.0.1+1.18.2                     |
+|   207 | Create                                            | create                                                | 0.5.0e-733                       |
+|   173 | CreatePlus                                        | createplus                                            | 1.0                              |
+|     5 | CrowdinTranslate                                  | crowdin-translate                                     | 1.4+1.18.2                       |
+|   234 | Cull Less Leaves                                  | cull-less-leaves                                      | 1.0.1                            |
+|   125 | Custom Entity Models                              | cem                                                   | 0.7.1                            |
+|    89 | Custom Splash Screen                              | customsplashscreen                                    | 1.2.0                            |
+|    50 | DCCH                                              | dcch                                                  | 2.0+1.17                         |
+|   194 | Debugify                                          | debugify                                              | 1.11.0                           |
+|   129 | Dripstone Fluid Lib                               | dripstone_fluid_lib                                   | 1.2.0                            |
+|    37 | Dynamic FPS                                       | dynamicfps                                            | 2.1.0                            |
+|   149 | EMI                                               | emi                                                   | 0.4.0+1.18.2                     |
+|   167 | EMI Trades                                        | emitrades                                             | 1.0.2+mc1.18.2                   |
+|   102 | Ears                                              | ears                                                  | 1.4.5_01                         |
+|   109 | Emicompat                                         | emicompat                                             | 1.0.3                            |
+|   144 | Emotecraft                                        | emotecraft                                            | 2.2.6-SNAPSHOT-build.44          |
+|    69 | Enhanced Block Entities                           | enhancedblockentities                                 | 0.7.1+1.18.2                     |
+|   177 | Entity Texture Features                           | entity_texture_features                               | 4.0.2                            |
+|    44 | EntityCulling-Fabric                              | entityculling                                         | 1.5.1                            |
+|   222 | Fabric Data Generation API (v1)                   | fabric-data-generation-api-v1                         | 2.0.9+e19de87d60                 |
+|   186 | Fabric Language Kotlin                            | fabric-language-kotlin                                | 1.8.4+kotlin.1.7.20              |
+|   132 | Fabric Shield Lib                                 | fabricshieldlib                                       | 1.5.3-1.18                       |
+|    15 | Fabric-ASM                                        | com_github_chocohead_fabric-asm                       | v2.3                             |
+|    63 | Fabrishot                                         | fabrishot                                             | ${version}                       |
+|   104 | Fake Player API                                   | fake-player-api                                       | 0.3.0                            |
+|   175 | Farmer's Delight                                  | farmersdelight                                        | 1.18.2-1.2.1                     |
+|   169 | Featured Servers                                  | featuredservers                                       | 1.0.1                            |
+|   235 | FerriteCore                                       | ferritecore                                           | 4.2.1                            |
+|    42 | Flywheel                                          | flywheel                                              | 0.6.4-30                         |
+|   154 | Forge Config API Port                             | forgeconfigapiport                                    | 3.2.4                            |
+|   126 | Forge Tags                                        | forge_tags                                            | 2.1                              |
+|   133 | Geckolib                                          | geckolib3                                             | 3.0.64                           |
+|   176 | HorseBuff                                         | horsebuff                                             | 2.0.0                            |
+|   212 | HorseInBoat                                       | horseinboat                                           | 1.1.2                            |
+|   157 | Illager Expansion                                 | illagerexp                                            | 0.1.5                            |
+|    98 | Indium                                            | indium                                                | 1.0.7+mc1.18.2                   |
+|    79 | Infusion Table                                    | infusion_table                                        | 1.1.0                            |
+|    85 | Interference API                                  | interference                                          | 1.4.1                            |
+|   114 | Iris                                              | iris                                                  | 1.4.0                            |
+|    47 | Item Model Fix                                    | itemmodelfix                                          | 1.0.3+1.18                       |
+|    62 | JMXL                                              | jmxl                                                  | 1.0                              |
+|   183 | Kiln                                              | kiln                                                  | 1.0.0                            |
+|     0 | KubeJS                                            | kubejs                                                | 1802.5.5-build.546               |
+|    54 | LambDynamicLights                                 | lambdynlights                                         | 2.1.0+1.17                       |
+|   110 | LambdaBetterGrass                                 | lambdabettergrass                                     | 1.2.4+1.18                       |
+|    59 | Language Reload                                   | languagereload                                        | 1.2.1                            |
+|    81 | LazyDFU                                           | lazydfu                                               | 0.1.2                            |
+|     6 | Light Emitting Diode                              | led                                                   | 1.2.4                            |
+|   136 | Lithium                                           | lithium                                               | 0.7.10                           |
+|   219 | Lovely Snails                                     | lovely_snails                                         | 1.0.4+1.18                       |
+|    26 | Maelstrom Library                                 | maelstrom_library                                     | 1.2.4-1.18.2                     |
+|   156 | Main Menu Credits                                 | isxander-main-menu-credits                            | 1.1.1                            |
+|    76 | Manningham Mills                                  | mm                                                    | 2.3                              |
+|    36 | Memory Leak Fix                                   | memoryleakfix                                         | 1.18.2-0.7.0                     |
+|   229 | Menu Music                                        | menumusic                                             | 1.0                              |
+|    20 | MidnightControls                                  | midnightcontrols                                      | 1.5.0+1.18                       |
+|    32 | MidnightLib                                       | midnightlib                                           | 0.4.4                            |
+|   115 | Milk Lib                                          | milk                                                  | 0.3.2                            |
+|   148 | Minecraft                                         | minecraft                                             | 1.18.2                           |
+|    52 | MixinExtras                                       | com_github_llamalad7_mixinextras                      | 0.0.11                           |
+|   160 | MixinTrace                                        | mixintrace                                            | 1.1.1+1.17                       |
+|    16 | Mo' Structures                                    | mostructures                                          | 1.4.2+1.18.2                     |
+|   120 | Mod Menu                                          | modmenu                                               | 3.2.3                            |
+|    61 | MoreChatHistory                                   | morechathistory                                       | 1.1.0                            |
+|    39 | Mouse Tweaks                                      | mousetweaks                                           | 2.22                             |
+|    21 | MultipartEntities                                 | multipart_entities                                    | 1.1.5-1.18.2                     |
+|    86 | No Fade                                           | nofade                                                | 1.18-2.0.1                       |
+|    22 | No Indium?                                        | noindium                                              | 1.0.1+1.18.2                     |
+|   159 | OPAC Create Mod Support                           | opaccreatesupport                                     | 1.1.0                            |
+|    49 | Oh The Biomes You'll Go                           | byg                                                   | 1.4                              |
+|    43 | OmegaConfig                                       | omega-config                                          | 1.2.3-1.18.1                     |
+|   107 | Open Parties and Claims                           | openpartiesandclaims                                  | 0.15.0                           |
+|   111 | OpenJDK 64-Bit Server VM                          | java                                                  | 17                               |
+|   237 | OpenLoader                                        | openloader                                            | 12.0.1                           |
+|   158 | OptiGUI                                           | optigui                                               | 1.1.0                            |
+|    74 | Ost Overhaul                                      | ostoverhaul                                           | 0.2.6                            |
+|   187 | Patchouli                                         | patchouli                                             | 1.18.2-71-FABRIC                 |
+|   100 | Player Animator                                   | player-animator                                       | 0.4.0-test1+1.18                 |
+|    93 | Plushie Mod                                       | plushies                                              | 1.2                              |
+|   191 | Porting Lib                                       | porting_lib                                           | 1.2.460-beta+1.18.2-dev.cca931b  |
+|    60 | Pride Lib                                         | pride                                                 | 1.1.0+1.17                       |
+|   103 | Puzzle                                            | puzzle                                                | 1.4.0-1.18                       |
+|    35 | Puzzle Base                                       | puzzle-base                                           | 1.4.0-1.18                       |
+|    64 | Puzzle GUI                                        | puzzle-gui                                            | 1.4.0-1.18                       |
+|     8 | Puzzle Models                                     | puzzle-models                                         | 1.4.0-1.18                       |
+|    94 | Puzzle Splash Screen                              | puzzle-splashscreen                                   | 1.4.0-1.18                       |
+|   181 | Quilt Base API                                    | quilt_base                                            | 1.1.0-beta.26+1.18.2             |
+|   196 | Quilt Biome API                                   | quilt_biome                                           | 1.1.0-beta.26+1.18.2             |
+|   178 | Quilt Block Entity API                            | quilt_block_entity                                    | 1.1.0-beta.26+1.18.2             |
+|   113 | Quilt Block Extensions API                        | quilt_block_extensions                                | 1.1.0-beta.26+1.18.2             |
+|   195 | Quilt Client Command API                          | quilt_client_command                                  | 1.1.0-beta.26+1.18.2             |
+|   164 | Quilt Command API                                 | quilt_command                                         | 1.1.0-beta.26+1.18.2             |
+|   131 | Quilt Crash Info                                  | quilt_crash_info                                      | 1.1.0-beta.26+1.18.2             |
+|   188 | Quilt DataFixerUpper API                          | quilt_datafixerupper                                  | 1.1.0-beta.26+1.18.2             |
+|   118 | Quilt Dimension API                               | quilt_dimension                                       | 1.1.0-beta.26+1.18.2             |
+|   135 | Quilt Item Group API                              | quilt_item_group                                      | 1.1.0-beta.26+1.18.2             |
+|   105 | Quilt Item Setting API                            | quilt_item_setting                                    | 1.1.0-beta.26+1.18.2             |
+|   224 | Quilt Lifecycle Events                            | quilt_lifecycle_events                                | 1.1.0-beta.26+1.18.2             |
+|   199 | Quilt Loader                                      | quilt_loader                                          | 0.17.10                          |
+|   215 | Quilt Networking                                  | quilt_networking                                      | 1.1.0-beta.26+1.18.2             |
+|   218 | Quilt Recipe API                                  | quilt_recipe                                          | 1.1.0-beta.26+1.18.2             |
+|   204 | Quilt Registry API                                | quilt_registry                                        | 1.1.0-beta.26+1.18.2             |
+|   153 | Quilt Registry Entry Attachments                  | quilt_registry_entry_attachments                      | 1.1.0-beta.26+1.18.2             |
+|   208 | Quilt Resource Loader                             | quilt_resource_loader                                 | 1.1.0-beta.26+1.18.2             |
+|   205 | Quilt Screen API                                  | quilt_screen                                          | 1.1.0-beta.26+1.18.2             |
+|   210 | Quilt Tags API                                    | quilt_tags                                            | 1.1.0-beta.26+1.18.2             |
+|   145 | Quilt Tooltip API                                 | quilt_tooltip                                         | 1.1.0-beta.26+1.18.2             |
+|   216 | Quilted Fabric API                                | quilted_fabric_api                                    | 1.0.0-beta.25+0.59.0-1.18.2      |
+|   192 | Quilted Fabric API Base                           | quilted_fabric_api_base                               | 1.0.0-beta.25+0.59.0-1.18.2      |
+|   200 | Quilted Fabric API Lookup API (v1)                | quilted_fabric_api_lookup_api_v1                      | 1.0.0-beta.25+0.59.0-1.18.2      |
+|   190 | Quilted Fabric Biome API (v1)                     | quilted_fabric_biome_api_v1                           | 1.0.0-beta.25+0.59.0-1.18.2      |
+|   236 | Quilted Fabric BlockRenderLayer Registration (v1) | quilted_fabric_blockrenderlayer_v1                    | 1.0.0-beta.25+0.59.0-1.18.2      |
+|   170 | Quilted Fabric Command API (v1)                   | quilted_fabric_command_api_v1                         | 1.0.0-beta.25+0.59.0-1.18.2      |
+|   117 | Quilted Fabric Commands (v0)                      | quilted_fabric_commands_v0                            | 1.0.0-beta.25+0.59.0-1.18.2      |
+|   180 | Quilted Fabric Containers (v0)                    | quilted_fabric_containers_v0                          | 1.0.0-beta.25+0.59.0-1.18.2      |
+|   230 | Quilted Fabric Content Registries (v0)            | quilted_fabric_content_registries_v0                  | 1.0.0-beta.25+0.59.0-1.18.2      |
+|   124 | Quilted Fabric Convention Tags API (v1)           | quilted_fabric_convention_tags_api_v1                 | 1.0.0-beta.25+0.59.0-1.18.2      |
+|   112 | Quilted Fabric Crash Report Info (v1)             | quilted_fabric_crash_report_info_v1                   | 1.0.0-beta.25+0.59.0-1.18.2      |
+|   140 | Quilted Fabric Dimensions API (v1)                | quilted_fabric_dimensions_v1                          | 1.0.0-beta.25+0.59.0-1.18.2      |
+|   179 | Quilted Fabric Entity Events (v1)                 | quilted_fabric_entity_events_v1                       | 1.0.0-beta.25+0.59.0-1.18.2      |
+|   143 | Quilted Fabric Events Interaction (v0)            | quilted_fabric_events_interaction_v0                  | 1.0.0-beta.25+0.59.0-1.18.2      |
+|   128 | Quilted Fabric Events Lifecycle (v0)              | quilted_fabric_events_lifecycle_v0                    | 1.0.0-beta.25+0.59.0-1.18.2      |
+|   166 | Quilted Fabric Game Rule API (v1)                 | quilted_fabric_game_rule_api_v1                       | 1.0.0-beta.25+0.59.0-1.18.2      |
+|   185 | Quilted Fabric Item API (v1)                      | quilted_fabric_item_api_v1                            | 1.0.0-beta.25+0.59.0-1.18.2      |
+|   161 | Quilted Fabric Item Groups (v0)                   | quilted_fabric_item_groups_v0                         | 1.0.0-beta.25+0.59.0-1.18.2      |
+|   239 | Quilted Fabric Key Binding API (v1)               | quilted_fabric_key_binding_api_v1                     | 1.0.0-beta.25+0.59.0-1.18.2      |
+|   152 | Quilted Fabric Key Bindings (v0)                  | quilted_fabric_keybindings_v0                         | 1.0.0-beta.25+0.59.0-1.18.2      |
+|   134 | Quilted Fabric Lifecycle Events (v1)              | quilted_fabric_lifecycle_events_v1                    | 1.0.0-beta.25+0.59.0-1.18.2      |
+|   221 | Quilted Fabric Loot API (v2)                      | quilted_fabric_loot_api_v2                            | 1.0.0-beta.25+0.59.0-1.18.2      |
+|   106 | Quilted Fabric Loot Tables (v1)                   | quilted_fabric_loot_tables_v1                         | 1.0.0-beta.25+0.59.0-1.18.2      |
+|   233 | Quilted Fabric Mining Level API (v1)              | quilted_fabric_mining_level_api_v1                    | 1.0.0-beta.25+0.59.0-1.18.2      |
+|   189 | Quilted Fabric Models (v0)                        | quilted_fabric_models_v0                              | 1.0.0-beta.25+0.59.0-1.18.2      |
+|   165 | Quilted Fabric Networking (v0)                    | quilted_fabric_networking_v0                          | 1.0.0-beta.25+0.59.0-1.18.2      |
+|   162 | Quilted Fabric Networking API (v1)                | quilted_fabric_networking_api_v1                      | 1.0.0-beta.25+0.59.0-1.18.2      |
+|   122 | Quilted Fabric Object Builder API (v1)            | quilted_fabric_object_builder_api_v1                  | 1.0.0-beta.25+0.59.0-1.18.2      |
+|   231 | Quilted Fabric Particles (v1)                     | quilted_fabric_particles_v1                           | 1.0.0-beta.25+0.59.0-1.18.2      |
+|   147 | Quilted Fabric Registry Sync (v0)                 | quilted_fabric_registry_sync_v0                       | 1.0.0-beta.25+0.59.0-1.18.2      |
+|   202 | Quilted Fabric Renderer - Indigo                  | quilted_fabric_renderer_indigo                        | 1.0.0-beta.25+0.59.0-1.18.2      |
+|   108 | Quilted Fabric Renderer API (v1)                  | quilted_fabric_renderer_api_v1                        | 1.0.0-beta.25+0.59.0-1.18.2      |
+|   168 | Quilted Fabric Renderer Registries (v1)           | quilted_fabric_renderer_registries_v1                 | 1.0.0-beta.25+0.59.0-1.18.2      |
+|   138 | Quilted Fabric Rendering (v0)                     | quilted_fabric_rendering_v0                           | 1.0.0-beta.25+0.59.0-1.18.2      |
+|   139 | Quilted Fabric Rendering (v1)                     | quilted_fabric_rendering_v1                           | 1.0.0-beta.25+0.59.0-1.18.2      |
+|   172 | Quilted Fabric Rendering Data Attachment (v1)     | quilted_fabric_rendering_data_attachment_v1           | 1.0.0-beta.25+0.59.0-1.18.2      |
+|   203 | Quilted Fabric Rendering Fluids (v1)              | quilted_fabric_rendering_fluids_v1                    | 1.0.0-beta.25+0.59.0-1.18.2      |
+|   116 | Quilted Fabric Resource Conditions API (v1)       | quilted_fabric_resource_conditions_api_v1             | 1.0.0-beta.25+0.59.0-1.18.2      |
+|   225 | Quilted Fabric Resource Loader (v0)               | quilted_fabric_resource_loader_v0                     | 1.0.0-beta.25+0.59.0-1.18.2      |
+|   227 | Quilted Fabric Screen API (v1)                    | quilted_fabric_screen_api_v1                          | 1.0.0-beta.25+0.59.0-1.18.2      |
+|   217 | Quilted Fabric Screen Handler API (v1)            | quilted_fabric_screen_handler_api_v1                  | 1.0.0-beta.25+0.59.0-1.18.2      |
+|   220 | Quilted Fabric Textures (v0)                      | quilted_fabric_textures_v0                            | 1.0.0-beta.25+0.59.0-1.18.2      |
+|   211 | Quilted Fabric Transfer API (v1)                  | quilted_fabric_transfer_api_v1                        | 1.0.0-beta.25+0.59.0-1.18.2      |
+|   201 | Quilted Fabric Transitive Access Wideners (v1)    | quilted_fabric_transitive_access_wideners_v1          | 1.0.0-beta.25+0.59.0-1.18.2      |
+|    34 | Reach Entity Attributes                           | reach-entity-attributes                               | 2.1.1                            |
+|    65 | Reese's Sodium Options                            | reeses-sodium-options                                 | 1.4.7+mc1.18.2-build.58          |
+|   213 | Registrate for Fabric                             | registrate-fabric                                     | MC1.18.2-1.1.4                   |
+|    72 | Rhino                                             | rhino                                                 | 1802.2.0-build.232               |
+|   197 | Right-Click-Harvest                               | right-click-harvest                                   | 1.2.0                            |
+|    99 | Runtime Resource Pack                             | advanced_runtime_resource_pack                        | 0.5.5                            |
+|    23 | Scout                                             | scout                                                 | 1.1.1                            |
+|   232 | Serialization Hooks                               | serialization_hooks                                   | 0.3.23                           |
+|   123 | Settxi Cloth Impl                                 | settxicloth                                           | 1.0.2                            |
+|   150 | Simple Voice Chat                                 | voicechat                                             | 1.18.2-2.3.10                    |
+|    90 | Smooth Boot                                       | smoothboot                                            | 1.18.2-1.7.0                     |
+|   142 | Sodium                                            | sodium                                                | 0.4.1+build.15                   |
+|   121 | Sodium Extra                                      | sodium-extra                                          | 0.4.11+mc1.18.2-build.67         |
+|   228 | SpruceUI                                          | spruceui                                              | 3.3.3+1.18                       |
+|   141 | Starlight                                         | starlight                                             | 1.0.2+fabric.89b8d9f             |
+|     2 | Step Height Entity Attribute                      | step-height-entity-attribute                          | 1.0.0                            |
+|   209 | Tax Free Levels                                   | taxfreelevels                                         | 1.3.3                            |
+|    38 | TerraBlender                                      | terrablender                                          | 1.2.0.126                        |
+|    28 | The Graveyard                                     | graveyard                                             | 1.9                              |
+|   206 | ToolTip Fix                                       | tooltipfix                                            | 1.0.4-1.18                       |
+|     3 | Trinkets                                          | trinkets                                              | 3.3.1                            |
+|   174 | Vanity Slots                                      | vanityslots                                           | 1.1.2                            |
+|     7 | Villager Hats                                     | villager-hats                                         | 1.4.0                            |
+|   198 | VoidTotem (Fabric)                                | voidtotem                                             | 1.18.2-1.3.1                     |
+|   146 | When Dungeons Arise                               | dungeons_arise                                        | 2.1.50                           |
+|   155 | Xaero's Minimap                                   | xaerominimap                                          | 22.15.1                          |
+|   163 | Xaero's World Map                                 | xaeroworldmap                                         | 1.28.0                           |
+|   101 | YOSBR                                             | yosbr                                                 | 0.1.1                            |
+|   226 | You're in Grave Danger                            | yigd                                                  | 1.3.10                           |
+|   171 | Zoomify                                           | zoomify                                               | 1.6.0                            |
+|    24 | antlr4-runtime                                    | org_antlr_antlr4-runtime                              | 4.10.1                           |
+|    17 | atomicfu-jvm                                      | org_jetbrains_kotlinx_atomicfu-jvm                    | 0.18.3                           |
+|    88 | cloth-basic-math                                  | cloth-basic-math                                      | 0.6.1                            |
+|     1 | commons-text                                      | org_apache_commons_commons-text                       | 1.9                              |
+|    78 | core                                              | com_electronwill_night-config_core                    | 3.6.5                            |
+|    53 | fiber                                             | fiber                                                 | 0.23.0-2                         |
+|   223 | friendsandfoes                                    | friendsandfoes                                        | 1.4.5                            |
+|    95 | glsl-transformer                                  | io_github_douira_glsl-transformer                     | 1.0.0-pre21.2                    |
+|    80 | jcpp                                              | org_anarres_jcpp                                      | 1.4.14                           |
+|    10 | joml                                              | org_joml_joml                                         | 1.10.2                           |
+|    71 | jsr305                                            | com_google_code_findbugs_jsr305                       | 3.0.2                            |
+|    67 | kotlin-reflect                                    | org_jetbrains_kotlin_kotlin-reflect                   | 1.7.20                           |
+|    56 | kotlin-stdlib                                     | org_jetbrains_kotlin_kotlin-stdlib                    | 1.7.20                           |
+|    12 | kotlin-stdlib-jdk7                                | org_jetbrains_kotlin_kotlin-stdlib-jdk7               | 1.7.20                           |
+|    14 | kotlin-stdlib-jdk8                                | org_jetbrains_kotlin_kotlin-stdlib-jdk8               | 1.7.20                           |
+|    40 | kotlinx-coroutines-core-jvm                       | org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm     | 1.6.4                            |
+|    66 | kotlinx-coroutines-jdk8                           | org_jetbrains_kotlinx_kotlinx-coroutines-jdk8         | 1.6.4                            |
+|    29 | kotlinx-datetime-jvm                              | org_jetbrains_kotlinx_kotlinx-datetime-jvm            | 0.4.0                            |
+|    48 | kotlinx-serialization-cbor-jvm                    | org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm  | 1.4.0                            |
+|    75 | kotlinx-serialization-core-jvm                    | org_jetbrains_kotlinx_kotlinx-serialization-core-jvm  | 1.4.0                            |
+|     4 | kotlinx-serialization-json-jvm                    | org_jetbrains_kotlinx_kotlinx-serialization-json-jvm  | 1.4.0                            |
+|    27 | lambdajcommon                                     | org_aperlambda_lambdajcommon                          | 1.8.1                            |
+|    51 | mclib                                             | com_eliotlash_mclib_mclib                             | 18                               |
+|     9 | molang                                            | com_eliotlash_molang_molang                           | 19                               |
+|    25 | settxi                                            | dev_isxander_settxi                                   | 2.1.1                            |
+|    91 | toml                                              | com_electronwill_night-config_toml                    | 3.6.5                            |
+|    57 | toml4j                                            | com_moandjiezana_toml_toml4j                          | 0.7.2                            |
+|   184 | wthit                                             | wthit                                                 | 4.13.3                           |
+|------:|---------------------------------------------------|-------------------------------------------------------|----------------------------------|
+[15:43:02] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/home/lachlan/.local/share/PrismLauncher/libraries/net/fabricmc/sponge-mixin/0.11.4+mixin.0.8.5/sponge-mixin-0.11.4+mixin.0.8.5.jar Service=Knot/Quilt Env=CLIENT
+[15:43:02] [main/INFO]: Compatibility level set to JAVA_17
+[15:43:02] [main/INFO]: Loaded configuration file for Sodium Extra: 29 options available, 0 override(s) found
+[15:43:02] [main/INFO]: Loaded configuration file for Lithium: 102 options available, 1 override(s) found
+[15:43:02] [main/INFO]: Loaded configuration file for Sodium: 29 options available, 1 override(s) found
+[15:43:02] [main/INFO]: Preloading Debugify
+[15:43:02] [main/INFO]: Done.
+[15:43:03] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
+[15:43:03] [main/WARN]: Force-disabling mixin 'features.sky.MixinWorldRenderer' as rule 'mixin.features.sky' (added by mods [iris]) disables it and children
+[15:43:03] [main/WARN]: Error loading class: draylar/magna/api/MagnaTool (java.lang.ClassNotFoundException: draylar/magna/api/MagnaTool)
+[15:43:03] [main/INFO]: I used the json to destroy the json
+[15:43:03] [main/INFO]: Smooth Boot config initialized
+[15:43:04] [main/WARN]: @Inject(@At("INVOKE")) Shift.BY=2 on dripstone_fluid_lib.mixins.json:MinecraftClientMixin from mod dripstone_fluid_lib::handler$cmk000$dripstone_fluid_lib$handleParticles exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[15:43:06] [main/WARN]: Method overwrite conflict for setTranslation in flywheel.fabric.mixins.json:Matrix4fMixin from mod flywheel, previously written by io.github.fabricators_of_create.porting_lib.mixin.common.Matrix4fMixin. Skipping method.
+[15:43:09] [main/INFO]: Compatibility version 15
+[15:43:09] [main/INFO]: Loading plugins
+[15:43:09] [main/INFO]: Loaded 0 plugin(s)
+[15:43:09] [main/INFO]: Initializing plugins
+[15:43:09] [main/INFO]: Initialized 0 plugin(s)
+[15:43:09] [main/INFO]: [Quilt Command] Networking support is enabled
+[15:43:10] [Render thread/INFO]: [STDERR]: org.objectweb.asm.tree.analysis.AnalyzerException: Error at instruction 32: Insufficient maximum stack size.
+[15:43:10] [Render thread/INFO]: [STDERR]: 	at org.objectweb.asm.tree.analysis.Analyzer.analyze(Analyzer.java:296)
+[15:43:10] [Render thread/INFO]: [STDERR]: 	at org.spongepowered.asm.util.Locals.generateLocalVariableTable(Locals.java:859)
+[15:43:10] [Render thread/INFO]: [STDERR]: 	at org.spongepowered.asm.util.Locals.getGeneratedLocalVariableTable(Locals.java:828)
+[15:43:10] [Render thread/INFO]: [STDERR]: 	at org.spongepowered.asm.util.Locals.getLocalVariableAt(Locals.java:782)
+[15:43:10] [Render thread/INFO]: [STDERR]: 	at org.spongepowered.asm.util.Locals.getLocalVariableAt(Locals.java:752)
+[15:43:10] [Render thread/INFO]: [STDERR]: 	at org.spongepowered.asm.util.Locals.getLocalsAt(Locals.java:545)
+[15:43:10] [Render thread/INFO]: [STDERR]: 	at org.spongepowered.asm.util.Locals.getLocalsAt(Locals.java:336)
+[15:43:10] [Render thread/INFO]: [STDERR]: 	at org.spongepowered.asm.mixin.injection.callback.CallbackInjector.preInject(CallbackInjector.java:479)
+[15:43:10] [Render thread/INFO]: [STDERR]: 	at org.spongepowered.asm.mixin.injection.code.Injector.preInject(Injector.java:258)
+[15:43:10] [Render thread/INFO]: [STDERR]: 	at org.spongepowered.asm.mixin.injection.struct.InjectionInfo.preInject(InjectionInfo.java:436)
+[15:43:10] [Render thread/INFO]: [STDERR]: 	at org.spongepowered.asm.mixin.transformer.MixinTargetContext.applyInjections(MixinTargetContext.java:1371)
+[15:43:10] [Render thread/INFO]: [STDERR]: 	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.applyInjections(MixinApplicatorStandard.java:1052)
+[15:43:10] [Render thread/INFO]: [STDERR]: 	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.applyMixin(MixinApplicatorStandard.java:400)
+[15:43:10] [Render thread/INFO]: [STDERR]: 	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.apply(MixinApplicatorStandard.java:325)
+[15:43:10] [Render thread/INFO]: [STDERR]: 	at org.spongepowered.asm.mixin.transformer.TargetClassContext.apply(TargetClassContext.java:421)
+[15:43:10] [Render thread/INFO]: [STDERR]: 	at org.spongepowered.asm.mixin.transformer.TargetClassContext.applyMixins(TargetClassContext.java:403)
+[15:43:10] [Render thread/INFO]: [STDERR]: 	at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:363)
+[15:43:10] [Render thread/INFO]: [STDERR]: 	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:234)
+[15:43:10] [Render thread/INFO]: [STDERR]: 	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClassBytes(MixinTransformer.java:202)
+[15:43:10] [Render thread/INFO]: [STDERR]: 	at org.quiltmc.loader.impl.launch.knot.KnotClassDelegate.getPostMixinClassByteArray(KnotClassDelegate.java:278)
+[15:43:10] [Render thread/INFO]: [STDERR]: 	at org.quiltmc.loader.impl.launch.knot.KnotClassDelegate.tryLoadClass(KnotClassDelegate.java:153)
+[15:43:10] [Render thread/INFO]: [STDERR]: 	at org.quiltmc.loader.impl.launch.knot.KnotClassLoader.loadClass(KnotClassLoader.java:156)
+[15:43:10] [Render thread/INFO]: [STDERR]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+[15:43:10] [Render thread/INFO]: [STDERR]: 	at net.minecraft.client.main.Main.main(Main.java:194)
+[15:43:10] [Render thread/INFO]: [STDERR]: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[15:43:10] [Render thread/INFO]: [STDERR]: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+[15:43:10] [Render thread/INFO]: [STDERR]: 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[15:43:10] [Render thread/INFO]: [STDERR]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+[15:43:10] [Render thread/INFO]: [STDERR]: 	at org.quiltmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:423)
+[15:43:10] [Render thread/INFO]: [STDERR]: 	at org.quiltmc.loader.impl.launch.knot.Knot.launch(Knot.java:76)
+[15:43:10] [Render thread/INFO]: [STDERR]: 	at org.quiltmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:24)
+[15:43:10] [Render thread/INFO]: [STDERR]: 	at org.prismlauncher.launcher.impl.StandardLauncher.launch(StandardLauncher.java:88)
+[15:43:10] [Render thread/INFO]: [STDERR]: 	at org.prismlauncher.EntryPoint.listen(EntryPoint.java:126)
+[15:43:10] [Render thread/INFO]: [STDERR]: 	at org.prismlauncher.EntryPoint.main(EntryPoint.java:71)
+[15:43:10] [Render thread/INFO]: [STDERR]: Caused by: java.lang.IndexOutOfBoundsException: Insufficient maximum stack size.
+[15:43:10] [Render thread/INFO]: [STDERR]: 	at org.objectweb.asm.tree.analysis.Frame.push(Frame.java:273)
+[15:43:10] [Render thread/INFO]: [STDERR]: 	at org.objectweb.asm.tree.analysis.Frame.execute(Frame.java:319)
+[15:43:10] [Render thread/INFO]: [STDERR]: 	at org.objectweb.asm.tree.analysis.Analyzer.analyze(Analyzer.java:188)
+[15:43:10] [Render thread/INFO]: [STDERR]: 	... 33 more
+[15:43:10] [Render thread/WARN]: Method overwrite conflict for method_22920 in sodium.mixins.json:features.buffer_builder.intrinsics.MixinBufferBuilder from mod sodium, previously written by net.coderbot.iris.mixin.vertices.block_rendering.MixinBufferBuilder_SeparateAo. Skipping method.
+[15:43:10] [Render thread/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[15:43:11] [Render thread/INFO]: Setting user: BulkiestPizza
+[15:43:11] [Render thread/INFO]: Looking for KubeJS plugins...
+[15:43:11] [Render thread/INFO]: Found plugin source kubejs
+[15:43:11] [Render thread/INFO]: Done in 18.61 ms
+[15:43:11] [Render thread/INFO]: Loaded common.properties
+[15:43:11] [Render thread/INFO]: Rhino properties loaded.
+[15:43:11] [Render thread/INFO]: HexMC Patches Applied
+[15:43:11] [Render thread/INFO]: Loaded script startup_scripts:script.js in 0.03 s
+[15:43:11] [Render thread/INFO]: Loaded 1/1 KubeJS startup scripts in 0.33 s
+[15:43:11] [Render thread/INFO]: Patches applied
+[15:43:11] [Render thread/INFO]: Loaded script client_scripts:script.js in 0.001 s
+[15:43:11] [Render thread/INFO]: Loaded 1/1 KubeJS client scripts in 0.009 s
+[15:43:11] [Render thread/INFO]: Registering C2S receiver with id kubejs:send_data_from_client
+[15:43:11] [Render thread/INFO]: Registering S2C receiver with id kubejs:send_data_from_server
+[15:43:11] [Render thread/INFO]: Registering S2C receiver with id kubejs:paint
+[15:43:11] [Render thread/INFO]: Registering S2C receiver with id kubejs:add_stage
+[15:43:11] [Render thread/INFO]: Registering S2C receiver with id kubejs:remove_stage
+[15:43:11] [Render thread/INFO]: Registering S2C receiver with id kubejs:sync_stages
+[15:43:11] [Render thread/INFO]: [MidnightControls] Initializing MidnightControls...
+[15:43:11] [Render thread/INFO]: BYG registries bootstrapped
+[15:43:12] [Render thread/ERROR]: No data fixer registered for byg:boat
+[15:43:12] [Render thread/INFO]: Initializing BYG network...
+[15:43:12] [Render thread/INFO]: Initialized BYG network!
+[15:43:12] [Render thread/INFO]: Oh The Biomes You'll Go (BYG) was initialized from "TerraBlender Initializer"
+[15:43:12] [Render thread/INFO]: "/home/lachlan/.local/share/PrismLauncher/instances/PrismLauncherModPack/.minecraft/config/byg/overworld/byg-overworld-biomes.json5" was read.
+[15:43:12] [Render thread/INFO]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[15:43:12] [Render thread/INFO]: Registered region minecraft:nether to index 0 for type NETHER
+[15:43:12] [Render thread/INFO]: Registered region byg:region_0 to index 1 for type OVERWORLD
+[15:43:12] [Render thread/INFO]: Registered region byg:region_1 to index 2 for type OVERWORLD
+[15:43:12] [Render thread/INFO]: Registered region byg:region_2 to index 3 for type OVERWORLD
+[15:43:12] [Render thread/INFO]: Registered region byg:region_3 to index 4 for type OVERWORLD
+[15:43:12] [Render thread/INFO]: Definitely not up to no good
+[15:43:13] [Render thread/INFO]: NoFadeIn is running
+[15:43:13] [Render thread/ERROR]: No data fixer registered for botania:mana_burst
+[15:43:13] [Render thread/ERROR]: No data fixer registered for botania:pixie
+[15:43:13] [Render thread/ERROR]: No data fixer registered for botania:flame_ring
+[15:43:13] [Render thread/ERROR]: No data fixer registered for botania:vine_ball
+[15:43:13] [Render thread/ERROR]: No data fixer registered for botania:doppleganger
+[15:43:13] [Render thread/ERROR]: No data fixer registered for botania:magic_landmine
+[15:43:13] [Render thread/ERROR]: No data fixer registered for botania:spark
+[15:43:13] [Render thread/ERROR]: No data fixer registered for botania:thrown_item
+[15:43:13] [Render thread/ERROR]: No data fixer registered for botania:magic_missile
+[15:43:13] [Render thread/ERROR]: No data fixer registered for botania:thorn_chakram
+[15:43:13] [Render thread/ERROR]: No data fixer registered for botania:corporea_spark
+[15:43:13] [Render thread/ERROR]: No data fixer registered for botania:ender_air_bottle
+[15:43:13] [Render thread/ERROR]: No data fixer registered for botania:pool_minecart
+[15:43:13] [Render thread/ERROR]: No data fixer registered for botania:pink_wither
+[15:43:13] [Render thread/ERROR]: No data fixer registered for botania:player_mover
+[15:43:13] [Render thread/ERROR]: No data fixer registered for botania:mana_storm
+[15:43:13] [Render thread/ERROR]: No data fixer registered for botania:babylon_weapon
+[15:43:13] [Render thread/ERROR]: No data fixer registered for botania:falling_star
+[15:43:13] [Render thread/ERROR]: No data fixer registered for botania:ender_air
+[15:43:14] [Render thread/INFO]: Fabric Shield Lib Initialized!
+[15:43:14] [Render thread/INFO]: Basic Shields initialized!
+[15:43:14] [Render thread/INFO]: Why are there so many illagers?
+[15:43:14] [Render thread/INFO]: Open Parties and Claims: Create mod support!
+[15:43:14] [Render thread/INFO]: Horse Buff Initialized
+[15:43:14] [Render thread/INFO]: Kiln is installed correctly, loading now! Thanks for installing! <3
+[15:43:14] [Render thread/INFO]: [WTHIT] Registering plugin waila:core at mcp.mobius.waila.plugin.core.WailaCore
+[15:43:14] [Render thread/INFO]: [WTHIT] Registering plugin waila:vanilla at mcp.mobius.waila.plugin.vanilla.WailaVanilla
+[15:43:14] [Render thread/INFO]: [WTHIT] Using mcp.mobius.waila.plugin.core.pick.ObjectPicker as the object picker
+[15:43:14] [Render thread/INFO]: [WTHIT] Plugin config reloaded
+[15:43:15] [Render thread/INFO]: Saving config because the loaded bug fixes are different to stored json.
+[15:43:15] [Render thread/INFO]: Saving Debugify
+[15:43:15] [Render thread/INFO]: Successfully Debugify'd your game!
+[15:43:15] [Render thread/INFO]: Proudly fixes 11 bugs!
+[15:43:15] [Render thread/INFO]: [STDOUT]: net.minecraft.class_2248
+[15:43:16] [Render thread/WARN]: Encountered duplicate API provider registration for item: minecraft:glass_bottle
+[15:43:16] [Render thread/WARN]: Encountered duplicate API provider registration for item: minecraft:glass_bottle
+[15:43:16] [Render thread/WARN]: Encountered duplicate API provider registration for item: minecraft:bucket
+[15:43:16] [Render thread/WARN]: Encountered duplicate API provider registration for item: minecraft:bucket
+[15:43:16] [Render thread/WARN]: Encountered duplicate API provider registration for item: minecraft:bucket
+[15:43:17] [Render thread/INFO]: Hello Fabric world!
+[15:43:17] [Render thread/INFO]: [LED] Applied 352 client delegates.
+[15:43:17] [Render thread/INFO]: AdvancementInfo initialized
+[15:43:17] [Render thread/INFO]: [STDOUT]: [Mouse Tweaks] Main.initialize()
+[15:43:17] [Render thread/INFO]: [STDOUT]: [Mouse Tweaks] Initialized.
+[15:43:17] [Render thread/INFO]: Iris detected.
+[15:43:17] [Render thread/INFO]: BYG: "Client Setup" Event Complete!
+[15:43:17] [ForkJoinPool.commonPool-worker-1/INFO]: An update for Friends&Foes is available! You're using 1.4.5 version but the latest version is 1.4.6!
+[15:43:17] [Render thread/INFO]: [LambDynLights] Initializing LambDynamicLights...
+[15:43:17] [Render thread/INFO]: [LambDynLights] Configuration loaded.
+[15:43:17] [Render thread/INFO]: JMXL loaded
+[15:43:17] [Render thread/INFO]: [citresewn] Registering CIT Conditions
+[15:43:17] [Render thread/INFO]: [citresewn] Registering CIT Types
+[15:43:17] [Render thread/INFO]: Loading Open Parties and Claims!
+[15:43:18] [Render thread/INFO]: [LambdaBetterGrass] Initializing LambdaBetterGrass...
+[15:43:18] [Render thread/INFO]: [LambdaBetterGrass] Configuration loaded.
+[15:43:18] [Render thread/INFO]: Using Cloth Config GUI
+[15:43:18] [Render thread/INFO]: Loading 62 entities from Custom Entity Models 0.7.1
+[15:43:18] [Render thread/INFO]: Loading Xaero's Minimap - Stage 1/2
+[15:43:20] [Render thread/INFO]: OptiGUI initialized.
+[15:43:20] [Render thread/INFO]: Loading Xaero's World Map - Stage 1/2
+[15:43:21] [Render thread/INFO]: [STDOUT]: Featured server already in server list
+[15:43:21] [Render thread/INFO]: Loading 1.19.84
+[15:43:21] [Render thread/INFO]: Registering S2C receiver with id architectury:spawn_entity_packet
+[15:43:21] [Render thread/INFO]: Re-caching descriptions because json doesn't match config.
+[15:43:21] [Render thread/INFO]: Saving Description Cache...
+[15:43:21] [Render thread/INFO]: Cache empty. Getting descriptions and saving in a new thread.
+[15:43:21] [ForkJoinPool.commonPool-worker-2/INFO]: Caching bug descriptions
+[15:43:21] [Render thread/INFO]: [Indigo] Different rendering plugin detected; not applying Indigo.
+[15:43:21] [Render thread/INFO]: Initalising client !!!
+[15:43:21] [Render thread/INFO]: [Quilt Command|Client] Networking support is enabled
+[15:43:21] [Render thread/INFO]: Backend library: LWJGL version 3.2.2 build 10
+[15:43:21] [Render thread/INFO]: Loaded client.properties
+[15:43:22] [Render thread/INFO]: OpenGL 4.5 detected, enabling DSA.
+[15:43:22] [Render thread/INFO]: Debug functionality is disabled.
+[15:43:22] [Render thread/INFO]: Shaders are disabled because enableShaders is set to false in iris.properties
+[15:43:22] [Render thread/INFO]: Shaders are disabled
+[15:43:22] [Render thread/INFO]: Preparing Data Pack injection.
+[15:43:22] [Render thread/INFO]: Successfully injected 0/0 packs from /home/lachlan/.local/share/PrismLauncher/instances/PrismLauncherModPack/.minecraft/config/openloader/data.
+[15:43:22] [Render thread/INFO]: Preparing Resource Pack injection.
+[15:43:22] [Render thread/INFO]: Successfully injected 0/0 packs from /home/lachlan/.local/share/PrismLauncher/instances/PrismLauncherModPack/.minecraft/config/openloader/resources.
+[15:43:22] [Render thread/WARN]: Removed resource pack Fabric Mods from options because it doesn't seem to exist anymore
+[15:43:22] [Render thread/INFO]: Removed resource pack lambdabettergrass/default from incompatibility list because it's now compatible
+[15:43:22] [Render thread/WARN]: Removed resource pack file/Mod Menu Helper.zip from options because it doesn't seem to exist anymore
+[15:43:22] [Render thread/INFO]: Hardware information:
+[15:43:22] [Render thread/INFO]: CPU: 12x AMD Ryzen 5 2600X Six-Core Processor
+[15:43:22] [Render thread/INFO]: GPU: AMD Radeon RX 6700 XT (navi22, LLVM 15.0.7, DRM 3.49, 6.1.8-arch1-1) (Supports OpenGL 4.6 (Core Profile) Mesa 22.3.3)
+[15:43:22] [Render thread/INFO]: OS: Linux (6.1.8-arch1-1)
+[15:43:22] [Render thread/INFO]: "/home/lachlan/.local/share/PrismLauncher/instances/PrismLauncherModPack/.minecraft/config/byg/growing-patterns.json5" was read.
+[15:43:22] [Render thread/WARN]: ERROR : Couldn't load Narrator library
+java.lang.UnsatisfiedLinkError: Unable to load library 'fliteWrapper':
+libflite.so.1: cannot open shared object file: No such file or directory
+libflite.so.1: cannot open shared object file: No such file or directory
+Native library (linux-x86-64/libfliteWrapper.so) not found in resource path (/usr/share/prismlauncher/NewLaunch.jar:/home/lachlan/.local/share/PrismLauncher/libraries/org/lwjgl/lwjgl-glfw/3.2.2/lwjgl-glfw-3.2.2.jar:/home/lachlan/.local/share/PrismLauncher/libraries/org/lwjgl/lwjgl-jemalloc/3.2.2/lwjgl-jemalloc-3.2.2.jar:/home/lachlan/.local/share/PrismLauncher/libraries/org/lwjgl/lwjgl-openal/3.2.2/lwjgl-openal-3.2.2.jar:/home/lachlan/.local/share/PrismLauncher/libraries/org/lwjgl/lwjgl-opengl/3.2.2/lwjgl-opengl-3.2.2.jar:/home/lachlan/.local/share/PrismLauncher/libraries/org/lwjgl/lwjgl-stb/3.2.2/lwjgl-stb-3.2.2.jar:/home/lachlan/.local/share/PrismLauncher/libraries/org/lwjgl/lwjgl/3.2.2/lwjgl-3.2.2.jar:/home/lachlan/.local/share/PrismLauncher/libraries/org/lwjgl/lwjgl-tinyfd/3.2.2/lwjgl-tinyfd-3.2.2.jar:/home/lachlan/.local/share/PrismLauncher/libraries/com/mojang/logging/1.0.0/logging-1.0.0.jar:/home/lachlan/.local/share/PrismLauncher/libraries/com/mojang/blocklist/1.0.10/blocklist-1.0.10.jar:/home/lachlan/.local/share/PrismLauncher/libraries/com/mojang/patchy/2.2.10/patchy-2.2.10.jar:/home/lachlan/.local/share/PrismLauncher/libraries/com/github/oshi/oshi-core/5.8.5/oshi-core-5.8.5.jar:/home/lachlan/.local/share/PrismLauncher/libraries/net/java/dev/jna/jna/5.10.0/jna-5.10.0.jar:/home/lachlan/.local/share/PrismLauncher/libraries/net/java/dev/jna/jna-platform/5.10.0/jna-platform-5.10.0.jar:/home/lachlan/.local/share/PrismLauncher/libraries/org/slf4j/slf4j-api/1.8.0-beta4/slf4j-api-1.8.0-beta4.jar:/home/lachlan/.local/share/PrismLauncher/libraries/org/apache/logging/log4j/log4j-slf4j18-impl/2.17.1/log4j-slf4j18-impl-2.17.1.jar:/home/lachlan/.local/share/PrismLauncher/libraries/com/ibm/icu/icu4j/70.1/icu4j-70.1.jar:/home/lachlan/.local/share/PrismLauncher/libraries/com/mojang/javabridge/1.2.24/javabridge-1.2.24.jar:/home/lachlan/.local/share/PrismLauncher/libraries/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar:/home/lachlan/.local/share/PrismLauncher/libraries/io/netty/netty-all/4.1.68.Final/netty-all-4.1.68.Final.jar:/home/lachlan/.local/share/PrismLauncher/libraries/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/home/lachlan/.local/share/PrismLauncher/libraries/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.jar:/home/lachlan/.local/share/PrismLauncher/libraries/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/home/lachlan/.local/share/PrismLauncher/libraries/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/home/lachlan/.local/share/PrismLauncher/libraries/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/home/lachlan/.local/share/PrismLauncher/libraries/com/mojang/brigadier/1.0.18/brigadier-1.0.18.jar:/home/lachlan/.local/share/PrismLauncher/libraries/com/mojang/datafixerupper/4.1.27/datafixerupper-4.1.27.jar:/home/lachlan/.local/share/PrismLauncher/libraries/com/google/code/gson/gson/2.8.9/gson-2.8.9.jar:/home/lachlan/.local/share/PrismLauncher/libraries/com/mojang/authlib/3.3.39/authlib-3.3.39.jar:/home/lachlan/.local/share/PrismLauncher/libraries/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar:/home/lachlan/.local/share/PrismLauncher/libraries/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/home/lachlan/.local/share/PrismLauncher/libraries/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/lachlan/.local/share/PrismLauncher/libraries/org/apache/httpcomponents/httpcore/4.4.14/httpcore-4.4.14.jar:/home/lachlan/.local/share/PrismLauncher/libraries/it/unimi/dsi/fastutil/8.5.6/fastutil-8.5.6.jar:/home/lachlan/.local/share/PrismLauncher/libraries/org/apache/logging/log4j/log4j-api/2.17.1/log4j-api-2.17.1.jar:/home/lachlan/.local/share/PrismLauncher/libraries/org/apache/logging/log4j/log4j-core/2.17.1/log4j-core-2.17.1.jar:/home/lachlan/.local/share/PrismLauncher/libraries/com/mojang/text2speech/1.12.4/text2speech-1.12.4.jar:/home/lachlan/.local/share/PrismLauncher/libraries/net/fabricmc/intermediary/1.18.2/intermediary-1.18.2.jar:/home/lachlan/.local/share/PrismLauncher/libraries/net/fabricmc/tiny-mappings-parser/0.3.0+build.17/tiny-mappings-parser-0.3.0+build.17.jar:/home/lachlan/.local/share/PrismLauncher/libraries/net/fabricmc/sponge-mixin/0.11.4+mixin.0.8.5/sponge-mixin-0.11.4+mixin.0.8.5.jar:/home/lachlan/.local/share/PrismLauncher/libraries/net/fabricmc/tiny-remapper/0.8.6/tiny-remapper-0.8.6.jar:/home/lachlan/.local/share/PrismLauncher/libraries/net/fabricmc/access-widener/2.1.0/access-widener-2.1.0.jar:/home/lachlan/.local/share/PrismLauncher/libraries/org/quiltmc/quilt-json5/1.0.2/quilt-json5-1.0.2.jar:/home/lachlan/.local/share/PrismLauncher/libraries/org/ow2/asm/asm/9.3/asm-9.3.jar:/home/lachlan/.local/share/PrismLauncher/libraries/org/ow2/asm/asm-analysis/9.3/asm-analysis-9.3.jar:/home/lachlan/.local/share/PrismLauncher/libraries/org/ow2/asm/asm-commons/9.3/asm-commons-9.3.jar:/home/lachlan/.local/share/PrismLauncher/libraries/org/ow2/asm/asm-tree/9.3/asm-tree-9.3.jar:/home/lachlan/.local/share/PrismLauncher/libraries/org/ow2/asm/asm-util/9.3/asm-util-9.3.jar:/home/lachlan/.local/share/PrismLauncher/libraries/org/quiltmc/quilt-config/1.0.0-beta.6/quilt-config-1.0.0-beta.6.jar:/home/lachlan/.local/share/PrismLauncher/libraries/org/quiltmc/quilt-loader/0.17.10/quilt-loader-0.17.10.jar:/home/lachlan/.local/share/PrismLauncher/libraries/com/mojang/minecraft/1.18.2/minecraft-1.18.2-client.jar)
+	at com.sun.jna.NativeLibrary.loadLibrary(NativeLibrary.java:301) ~[jna-5.10.0.jar:5.10.0 (b0)]
+	at com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:461) ~[jna-5.10.0.jar:5.10.0 (b0)]
+	at com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:403) ~[jna-5.10.0.jar:5.10.0 (b0)]
+	at com.mojang.text2speech.NarratorLinux.<clinit>(NarratorLinux.java:18) [text2speech-1.12.4.jar:?]
+	at com.mojang.text2speech.Narrator.getNarrator(Narrator.java:21) [text2speech-1.12.4.jar:?]
+	at net.minecraft.class_333.<init>(class_333.java:26) [client-intermediary.jar:?]
+	at net.minecraft.class_333.<clinit>(class_333.java:24) [client-intermediary.jar:?]
+	at net.minecraft.class_329.<init>(class_329.java:165) [client-intermediary.jar:?]
+	at net.minecraft.class_310.<init>(class_310.java:593) [client-intermediary.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:197) [client-intermediary.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.quiltmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:423) [quilt-loader-0.17.10.jar:?]
+	at org.quiltmc.loader.impl.launch.knot.Knot.launch(Knot.java:76) [quilt-loader-0.17.10.jar:?]
+	at org.quiltmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:24) [quilt-loader-0.17.10.jar:?]
+	at org.prismlauncher.launcher.impl.StandardLauncher.launch(StandardLauncher.java:88) [NewLaunch.jar:?]
+	at org.prismlauncher.EntryPoint.listen(EntryPoint.java:126) [NewLaunch.jar:?]
+	at org.prismlauncher.EntryPoint.main(EntryPoint.java:71) [NewLaunch.jar:?]
+	Suppressed: java.lang.UnsatisfiedLinkError: libflite.so.1: cannot open shared object file: No such file or directory
+		at com.sun.jna.Native.open(Native Method) ~[jna-5.10.0.jar:5.10.0 (b0)]
+		at com.sun.jna.NativeLibrary.loadLibrary(NativeLibrary.java:191) ~[jna-5.10.0.jar:5.10.0 (b0)]
+		at com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:461) ~[jna-5.10.0.jar:5.10.0 (b0)]
+		at com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:403) ~[jna-5.10.0.jar:5.10.0 (b0)]
+		at com.mojang.text2speech.NarratorLinux.<clinit>(NarratorLinux.java:18) [text2speech-1.12.4.jar:?]
+		at com.mojang.text2speech.Narrator.getNarrator(Narrator.java:21) [text2speech-1.12.4.jar:?]
+		at net.minecraft.class_333.<init>(class_333.java:26) [client-intermediary.jar:?]
+		at net.minecraft.class_333.<clinit>(class_333.java:24) [client-intermediary.jar:?]
+		at net.minecraft.class_329.<init>(class_329.java:165) [client-intermediary.jar:?]
+		at net.minecraft.class_310.<init>(class_310.java:593) [client-intermediary.jar:?]
+		at net.minecraft.client.main.Main.main(Main.java:197) [client-intermediary.jar:?]
+		at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+		at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+		at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+		at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+		at org.quiltmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:423) [quilt-loader-0.17.10.jar:?]
+		at org.quiltmc.loader.impl.launch.knot.Knot.launch(Knot.java:76) [quilt-loader-0.17.10.jar:?]
+		at org.quiltmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:24) [quilt-loader-0.17.10.jar:?]
+		at org.prismlauncher.launcher.impl.StandardLauncher.launch(StandardLauncher.java:88) [NewLaunch.jar:?]
+		at org.prismlauncher.EntryPoint.listen(EntryPoint.java:126) [NewLaunch.jar:?]
+		at org.prismlauncher.EntryPoint.main(EntryPoint.java:71) [NewLaunch.jar:?]
+	Suppressed: java.lang.UnsatisfiedLinkError: libflite.so.1: cannot open shared object file: No such file or directory
+		at com.sun.jna.Native.open(Native Method) ~[jna-5.10.0.jar:5.10.0 (b0)]
+		at com.sun.jna.NativeLibrary.loadLibrary(NativeLibrary.java:204) ~[jna-5.10.0.jar:5.10.0 (b0)]
+		at com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:461) ~[jna-5.10.0.jar:5.10.0 (b0)]
+		at com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:403) ~[jna-5.10.0.jar:5.10.0 (b0)]
+		at com.mojang.text2speech.NarratorLinux.<clinit>(NarratorLinux.java:18) [text2speech-1.12.4.jar:?]
+		at com.mojang.text2speech.Narrator.getNarrator(Narrator.java:21) [text2speech-1.12.4.jar:?]
+		at net.minecraft.class_333.<init>(class_333.java:26) [client-intermediary.jar:?]
+		at net.minecraft.class_333.<clinit>(class_333.java:24) [client-intermediary.jar:?]
+		at net.minecraft.class_329.<init>(class_329.java:165) [client-intermediary.jar:?]
+		at net.minecraft.class_310.<init>(class_310.java:593) [client-intermediary.jar:?]
+		at net.minecraft.client.main.Main.main(Main.java:197) [client-intermediary.jar:?]
+		at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+		at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+		at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+		at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+		at org.quiltmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:423) [quilt-loader-0.17.10.jar:?]
+		at org.quiltmc.loader.impl.launch.knot.Knot.launch(Knot.java:76) [quilt-loader-0.17.10.jar:?]
+		at org.quiltmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:24) [quilt-loader-0.17.10.jar:?]
+		at org.prismlauncher.launcher.impl.StandardLauncher.launch(StandardLauncher.java:88) [NewLaunch.jar:?]
+		at org.prismlauncher.EntryPoint.listen(EntryPoint.java:126) [NewLaunch.jar:?]
+		at org.prismlauncher.EntryPoint.main(EntryPoint.java:71) [NewLaunch.jar:?]
+	Suppressed: java.io.IOException: Native library (linux-x86-64/libfliteWrapper.so) not found in resource path (/usr/share/prismlauncher/NewLaunch.jar:/home/lachlan/.local/share/PrismLauncher/libraries/org/lwjgl/lwjgl-glfw/3.2.2/lwjgl-glfw-3.2.2.jar:/home/lachlan/.local/share/PrismLauncher/libraries/org/lwjgl/lwjgl-jemalloc/3.2.2/lwjgl-jemalloc-3.2.2.jar:/home/lachlan/.local/share/PrismLauncher/libraries/org/lwjgl/lwjgl-openal/3.2.2/lwjgl-openal-3.2.2.jar:/home/lachlan/.local/share/PrismLauncher/libraries/org/lwjgl/lwjgl-opengl/3.2.2/lwjgl-opengl-3.2.2.jar:/home/lachlan/.local/share/PrismLauncher/libraries/org/lwjgl/lwjgl-stb/3.2.2/lwjgl-stb-3.2.2.jar:/home/lachlan/.local/share/PrismLauncher/libraries/org/lwjgl/lwjgl/3.2.2/lwjgl-3.2.2.jar:/home/lachlan/.local/share/PrismLauncher/libraries/org/lwjgl/lwjgl-tinyfd/3.2.2/lwjgl-tinyfd-3.2.2.jar:/home/lachlan/.local/share/PrismLauncher/libraries/com/mojang/logging/1.0.0/logging-1.0.0.jar:/home/lachlan/.local/share/PrismLauncher/libraries/com/mojang/blocklist/1.0.10/blocklist-1.0.10.jar:/home/lachlan/.local/share/PrismLauncher/libraries/com/mojang/patchy/2.2.10/patchy-2.2.10.jar:/home/lachlan/.local/share/PrismLauncher/libraries/com/github/oshi/oshi-core/5.8.5/oshi-core-5.8.5.jar:/home/lachlan/.local/share/PrismLauncher/libraries/net/java/dev/jna/jna/5.10.0/jna-5.10.0.jar:/home/lachlan/.local/share/PrismLauncher/libraries/net/java/dev/jna/jna-platform/5.10.0/jna-platform-5.10.0.jar:/home/lachlan/.local/share/PrismLauncher/libraries/org/slf4j/slf4j-api/1.8.0-beta4/slf4j-api-1.8.0-beta4.jar:/home/lachlan/.local/share/PrismLauncher/libraries/org/apache/logging/log4j/log4j-slf4j18-impl/2.17.1/log4j-slf4j18-impl-2.17.1.jar:/home/lachlan/.local/share/PrismLauncher/libraries/com/ibm/icu/icu4j/70.1/icu4j-70.1.jar:/home/lachlan/.local/share/PrismLauncher/libraries/com/mojang/javabridge/1.2.24/javabridge-1.2.24.jar:/home/lachlan/.local/share/PrismLauncher/libraries/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar:/home/lachlan/.local/share/PrismLauncher/libraries/io/netty/netty-all/4.1.68.Final/netty-all-4.1.68.Final.jar:/home/lachlan/.local/share/PrismLauncher/libraries/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/home/lachlan/.local/share/PrismLauncher/libraries/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.jar:/home/lachlan/.local/share/PrismLauncher/libraries/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/home/lachlan/.local/share/PrismLauncher/libraries/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/home/lachlan/.local/share/PrismLauncher/libraries/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/home/lachlan/.local/share/PrismLauncher/libraries/com/mojang/brigadier/1.0.18/brigadier-1.0.18.jar:/home/lachlan/.local/share/PrismLauncher/libraries/com/mojang/datafixerupper/4.1.27/datafixerupper-4.1.27.jar:/home/lachlan/.local/share/PrismLauncher/libraries/com/google/code/gson/gson/2.8.9/gson-2.8.9.jar:/home/lachlan/.local/share/PrismLauncher/libraries/com/mojang/authlib/3.3.39/authlib-3.3.39.jar:/home/lachlan/.local/share/PrismLauncher/libraries/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar:/home/lachlan/.local/share/PrismLauncher/libraries/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/home/lachlan/.local/share/PrismLauncher/libraries/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/lachlan/.local/share/PrismLauncher/libraries/org/apache/httpcomponents/httpcore/4.4.14/httpcore-4.4.14.jar:/home/lachlan/.local/share/PrismLauncher/libraries/it/unimi/dsi/fastutil/8.5.6/fastutil-8.5.6.jar:/home/lachlan/.local/share/PrismLauncher/libraries/org/apache/logging/log4j/log4j-api/2.17.1/log4j-api-2.17.1.jar:/home/lachlan/.local/share/PrismLauncher/libraries/org/apache/logging/log4j/log4j-core/2.17.1/log4j-core-2.17.1.jar:/home/lachlan/.local/share/PrismLauncher/libraries/com/mojang/text2speech/1.12.4/text2speech-1.12.4.jar:/home/lachlan/.local/share/PrismLauncher/libraries/net/fabricmc/intermediary/1.18.2/intermediary-1.18.2.jar:/home/lachlan/.local/share/PrismLauncher/libraries/net/fabricmc/tiny-mappings-parser/0.3.0+build.17/tiny-mappings-parser-0.3.0+build.17.jar:/home/lachlan/.local/share/PrismLauncher/libraries/net/fabricmc/sponge-mixin/0.11.4+mixin.0.8.5/sponge-mixin-0.11.4+mixin.0.8.5.jar:/home/lachlan/.local/share/PrismLauncher/libraries/net/fabricmc/tiny-remapper/0.8.6/tiny-remapper-0.8.6.jar:/home/lachlan/.local/share/PrismLauncher/libraries/net/fabricmc/access-widener/2.1.0/access-widener-2.1.0.jar:/home/lachlan/.local/share/PrismLauncher/libraries/org/quiltmc/quilt-json5/1.0.2/quilt-json5-1.0.2.jar:/home/lachlan/.local/share/PrismLauncher/libraries/org/ow2/asm/asm/9.3/asm-9.3.jar:/home/lachlan/.local/share/PrismLauncher/libraries/org/ow2/asm/asm-analysis/9.3/asm-analysis-9.3.jar:/home/lachlan/.local/share/PrismLauncher/libraries/org/ow2/asm/asm-commons/9.3/asm-commons-9.3.jar:/home/lachlan/.local/share/PrismLauncher/libraries/org/ow2/asm/asm-tree/9.3/asm-tree-9.3.jar:/home/lachlan/.local/share/PrismLauncher/libraries/org/ow2/asm/asm-util/9.3/asm-util-9.3.jar:/home/lachlan/.local/share/PrismLauncher/libraries/org/quiltmc/quilt-config/1.0.0-beta.6/quilt-config-1.0.0-beta.6.jar:/home/lachlan/.local/share/PrismLauncher/libraries/org/quiltmc/quilt-loader/0.17.10/quilt-loader-0.17.10.jar:/home/lachlan/.local/share/PrismLauncher/libraries/com/mojang/minecraft/1.18.2/minecraft-1.18.2-client.jar)
+		at com.sun.jna.Native.extractFromResourcePath(Native.java:1145) ~[jna-5.10.0.jar:5.10.0 (b0)]
+		at com.sun.jna.NativeLibrary.loadLibrary(NativeLibrary.java:275) ~[jna-5.10.0.jar:5.10.0 (b0)]
+		at com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:461) ~[jna-5.10.0.jar:5.10.0 (b0)]
+		at com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:403) ~[jna-5.10.0.jar:5.10.0 (b0)]
+		at com.mojang.text2speech.NarratorLinux.<clinit>(NarratorLinux.java:18) [text2speech-1.12.4.jar:?]
+		at com.mojang.text2speech.Narrator.getNarrator(Narrator.java:21) [text2speech-1.12.4.jar:?]
+		at net.minecraft.class_333.<init>(class_333.java:26) [client-intermediary.jar:?]
+		at net.minecraft.class_333.<clinit>(class_333.java:24) [client-intermediary.jar:?]
+		at net.minecraft.class_329.<init>(class_329.java:165) [client-intermediary.jar:?]
+		at net.minecraft.class_310.<init>(class_310.java:593) [client-intermediary.jar:?]
+		at net.minecraft.client.main.Main.main(Main.java:197) [client-intermediary.jar:?]
+		at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+		at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+		at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+		at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+		at org.quiltmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:423) [quilt-loader-0.17.10.jar:?]
+		at org.quiltmc.loader.impl.launch.knot.Knot.launch(Knot.java:76) [quilt-loader-0.17.10.jar:?]
+		at org.quiltmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:24) [quilt-loader-0.17.10.jar:?]
+		at org.prismlauncher.launcher.impl.StandardLauncher.launch(StandardLauncher.java:88) [NewLaunch.jar:?]
+		at org.prismlauncher.EntryPoint.listen(EntryPoint.java:126) [NewLaunch.jar:?]
+		at org.prismlauncher.EntryPoint.main(EntryPoint.java:71) [NewLaunch.jar:?]
+[15:43:23] [Render thread/WARN]: Failed to load texture: minecraft:progressbar.png
+java.io.FileNotFoundException: /home/lachlan/.local/share/PrismLauncher/instances/PrismLauncherModPack/.minecraft/config/customsplashscreen/progressbar.png (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(FileInputStream.java:216) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:157) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:111) ~[?:?]
+	at eu.midnightdust.customsplashscreen.texture.ConfigTexture.method_18153(ConfigTexture.java:23) ~[customsplashscreen-1.2.0.jar:?]
+	at net.minecraft.class_1049.method_4625(class_1049.java:28) ~[client-intermediary.jar:?]
+	at net.minecraft.class_1060.method_24303(class_1060.java:96) [client-intermediary.jar:?]
+	at net.minecraft.class_1060.method_4616(class_1060.java:68) [client-intermediary.jar:?]
+	at net.minecraft.class_425.handler$bjg000$init(class_425.java:2065) [client-intermediary.jar:?]
+	at net.minecraft.class_425.method_18819(class_425.java) [client-intermediary.jar:?]
+	at net.minecraft.class_310.<init>(class_310.java:621) [client-intermediary.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:197) [client-intermediary.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.quiltmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:423) [quilt-loader-0.17.10.jar:?]
+	at org.quiltmc.loader.impl.launch.knot.Knot.launch(Knot.java:76) [quilt-loader-0.17.10.jar:?]
+	at org.quiltmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:24) [quilt-loader-0.17.10.jar:?]
+	at org.prismlauncher.launcher.impl.StandardLauncher.launch(StandardLauncher.java:88) [NewLaunch.jar:?]
+	at org.prismlauncher.EntryPoint.listen(EntryPoint.java:126) [NewLaunch.jar:?]
+	at org.prismlauncher.EntryPoint.main(EntryPoint.java:71) [NewLaunch.jar:?]
+[15:43:23] [Render thread/WARN]: Failed to load texture: minecraft:progressbar_background.png
+java.io.FileNotFoundException: /home/lachlan/.local/share/PrismLauncher/instances/PrismLauncherModPack/.minecraft/config/customsplashscreen/progressbar_background.png (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(FileInputStream.java:216) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:157) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:111) ~[?:?]
+	at eu.midnightdust.customsplashscreen.texture.ConfigTexture.method_18153(ConfigTexture.java:23) ~[customsplashscreen-1.2.0.jar:?]
+	at net.minecraft.class_1049.method_4625(class_1049.java:28) ~[client-intermediary.jar:?]
+	at net.minecraft.class_1060.method_24303(class_1060.java:96) [client-intermediary.jar:?]
+	at net.minecraft.class_1060.method_4616(class_1060.java:68) [client-intermediary.jar:?]
+	at net.minecraft.class_425.handler$bjg000$init(class_425.java:2066) [client-intermediary.jar:?]
+	at net.minecraft.class_425.method_18819(class_425.java) [client-intermediary.jar:?]
+	at net.minecraft.class_310.<init>(class_310.java:621) [client-intermediary.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:197) [client-intermediary.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.quiltmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:423) [quilt-loader-0.17.10.jar:?]
+	at org.quiltmc.loader.impl.launch.knot.Knot.launch(Knot.java:76) [quilt-loader-0.17.10.jar:?]
+	at org.quiltmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:24) [quilt-loader-0.17.10.jar:?]
+	at org.prismlauncher.launcher.impl.StandardLauncher.launch(StandardLauncher.java:88) [NewLaunch.jar:?]
+	at org.prismlauncher.EntryPoint.listen(EntryPoint.java:126) [NewLaunch.jar:?]
+	at org.prismlauncher.EntryPoint.main(EntryPoint.java:71) [NewLaunch.jar:?]
+[15:43:23] [Render thread/INFO]: ARRP register - before vanilla
+[15:43:23] [Render thread/INFO]: ARRP register - after vanilla
+[15:43:23] [Render thread/INFO]: Reloading ResourceManager: Default (Quilted Fabric Particles (v1), Porting Lib, Quilted Fabric Events Lifecycle (v0), Emicompat, Milk Lib, Zoomify, LambdaBetterGrass, Better Combat, Featured Servers, Registrate for Fabric, Cardinal Components API (worlds), Simple Voice Chat, Memory Leak Fix, Custom Splash Screen, Quilted Fabric Rendering Data Attachment (v1), Quilt Client Command API, Cardinal Components API (scoreboard), Fabric Shield Lib, LambDynamicLights, Light Emitting Diode, Create, You're in Grave Danger, Quilted Fabric API Lookup API (v1), Xaero's Minimap, Manningham Mills, Quilted Fabric Item Groups (v0), Right-Click-Harvest, Lovely Snails, VoidTotem (Fabric), Quilted Fabric API, Quilted Fabric Screen Handler API (v1), Tax Free Levels, Quilted Fabric Rendering Fluids (v1), Quilted Fabric Registry Sync (v0), Flywheel, Quilted Fabric Loot API (v2), Cloth Config v6, Geckolib, Puzzle Base, Continuity, wthit, Fabric Data Generation API (v1), Trinkets, Quilted Fabric Renderer - Indigo, Quilted Fabric Item API (v1), Cardinal Components API (entities), Quilt Command API, Quilted Fabric Entity Events (v1), Xaero's World Map, Puzzle Models, Oh The Biomes You'll Go, Quilted Fabric Biome API (v1), OpenLoader, OptiGUI, Quilt Base API, TerraBlender, EMI Trades, Pride Lib, Quilted Fabric Commands (v0), Fabric-ASM, Smooth Boot, Quilted Fabric Networking API (v1), Quilted Fabric Transitive Access Wideners (v1), Cull Less Leaves, Quilted Fabric Lifecycle Events (v1), Quilt Tags API, Quilt Networking, Iris, Quilted Fabric Rendering (v1), Quilted Fabric Containers (v0), Borderless Mining, Mo' Structures, Quilted Fabric Textures (v0), Fabrishot, Reese's Sodium Options, KubeJS, Quilt Resource Loader, Indium, ToolTip Fix, Serialization Hooks, Item Model Fix, Quilted Fabric Renderer API (v1), Patchouli, Illager Expansion, Botania, Quilt Loader, Quilt Registry API, Plushie Mod, Quilt Item Setting API, Quilted Fabric Game Rule API (v1), AdvancementInfo, Puzzle Splash Screen, CIT Resewn: Defaults, Community Chest, Interference API, SpruceUI, Quilted Fabric Mining Level API (v1), Infusion Table, Quilt Recipe API, Fabric Language Kotlin, LazyDFU, Fake Player API, Animatica, Quilt Biome API, Quilted Fabric Object Builder API (v1), Quilt Registry Entry Attachments, Chunky, CIT Resewn, Sodium Extra, Sodium, Enhanced Block Entities, Cardinal Components API (items), Dynamic FPS, Entity Texture Features, EntityCulling-Fabric, When Dungeons Arise, No Indium?, friendsandfoes, Ost Overhaul, Quilt Dimension API, Reach Entity Attributes, Custom Entity Models, CreatePlus, Puzzle GUI, Scout, Villager Hats, MidnightControls, Forge Config API Port, Quilted Fabric Loot Tables (v1), Cardinal Components API (world saves), JMXL, Quilted Fabric Screen API (v1), AntiGhost, Starlight, Emotecraft, Cardinal Components API, Quilted Fabric Crash Report Info (v1), Ears, Quilted Fabric Rendering (v0), Language Reload, Quilted Fabric Resource Loader (v0), CaffeineConfig, Mod Menu, Vanity Slots, Cardinal Components API (chunks), The Graveyard, Quilted Fabric BlockRenderLayer Registration (v1), HorseBuff, Quilt Crash Info, Quilt Screen API, Quilt Block Entity API, Dripstone Fluid Lib, Quilted Fabric Resource Conditions API (v1), Quilted Fabric Convention Tags API (v1), CompleteConfig, Basic Shields [Fabric], No Fade, Quilt Block Extensions API, Adorn, Farmer's Delight, Quilted Fabric Renderer Registries (v1), Quilt DataFixerUpper API, Quilted Fabric Command API (v1), Quilted Fabric Key Binding API (v1), Quilted Fabric API Base, EMI, Capes, Bosses of Mass Destruction (Beta), Kiln, Runtime Resource Pack, OmegaConfig, Quilt Tooltip API, MoreChatHistory, Maelstrom Library, Quilted Fabric Networking (v0), Cardinal Components API (blocks), Open Parties and Claims, Step Height Entity Attribute, Quilted Fabric Events Interaction (v0), Quilted Fabric Key Bindings (v0), Quilt Item Group API, Quilted Fabric Transfer API (v1), Combat Roll, Lithium, Quilt Lifecycle Events, MixinTrace, Quilted Fabric Models (v0), Quilted Fabric Content Registries (v0), Puzzle, YOSBR, MidnightLib, Cardinal Components API (base), Quilted Fabric Dimensions API (v1)), continuity/default, continuity/glass_pane_culling_fix, HexMC Resources, lambdabettergrass/default, KubeJS Resource Pack [assets]
+[15:43:23] [Render thread/INFO]: [LambdaBetterGrass] Inject generated resource packs.
+[15:43:23] [Render thread/INFO]: Creating pipeline for dimension OVERWORLD
+[15:43:23] [Render thread/INFO]: [MidnightControls] Configuration loaded.
+[15:43:23] [Render thread/INFO]: [MidnightControls] Updating controller mappings...
+[15:43:23] [Render thread/INFO]: [MidnightControls] Adding EMI compatibility...
+[15:43:23] [Render thread/INFO]: "/home/lachlan/.local/share/PrismLauncher/instances/PrismLauncherModPack/.minecraft/config/byg/settings.json5" was read.
+[15:43:23] [Render thread/INFO]: "/home/lachlan/.local/share/PrismLauncher/instances/PrismLauncherModPack/.minecraft/config/byg/surface_rules/overworld_surface_rules.json5" was read.
+[15:43:24] [Render thread/INFO]: "/home/lachlan/.local/share/PrismLauncher/instances/PrismLauncherModPack/.minecraft/config/byg/surface_rules/end_surface_rules.json5" was read.
+[15:43:24] [Render thread/INFO]: "/home/lachlan/.local/share/PrismLauncher/instances/PrismLauncherModPack/.minecraft/config/byg/surface_rules/nether_surface_rules.json5" was read.
+[15:43:24] [Render thread/WARN]: Method overwrite conflict for getCuboids in friendsandfoes-common.mixins.json:ModelPartAccessor from mod friendsandfoes, previously written by io.github.kosmx.bendylib.mixin.IModelPartMixin. Skipping method.
+[15:43:24] [Render thread/WARN]: Method overwrite conflict for getChildren in friendsandfoes-common.mixins.json:ModelPartAccessor from mod friendsandfoes, previously written by io.github.kosmx.bendylib.mixin.IModelPartMixin. Skipping method.
+[15:43:24] [Render thread/WARN]: Method overwrite conflict for getProgress in languagereload.mixins.json:MixinAdvancementWidget from mod languagereload, previously written by de.guntram.mcmod.advancementinfo.mixin.AdvancementWidgetMixin. Skipping method.
+[15:43:25] [Render thread/WARN]: @Redirect conflict. Skipping mixins.iris.compat.sodium.json:vertex_format.MixinFluidRenderer from mod iris->@Redirect::iris$fixSidewaysInnerFaceNormal(Lme/jellysquid/mods/sodium/client/model/IndexBufferBuilder;ILme/jellysquid/mods/sodium/client/model/quad/properties/ModelQuadWinding;Lnet/minecraft/class_1920;Lnet/minecraft/class_3610;Lnet/minecraft/class_2338;Lnet/minecraft/class_2338;Lme/jellysquid/mods/sodium/client/render/chunk/compile/buffers/ChunkModelBuilder;)V with priority 1000, already redirected by mixins.iris.compat.sodium.json:vertex_format.MixinFluidRenderer from mod iris->@Redirect::iris$fixBackwardUpFaceNormal(Lme/jellysquid/mods/sodium/client/model/IndexBufferBuilder;ILme/jellysquid/mods/sodium/client/model/quad/properties/ModelQuadWinding;Lnet/minecraft/class_1920;Lnet/minecraft/class_3610;Lnet/minecraft/class_2338;Lnet/minecraft/class_2338;Lme/jellysquid/mods/sodium/client/render/chunk/compile/buffers/ChunkModelBuilder;)V with priority 1000
+[15:43:25] [Render thread/INFO]: "Oh The Biomes You'll Go" after registries freeze event firing...
+[15:43:25] [Render thread/INFO]: BYG: "Common Setup" Event Complete!
+[15:43:25] [Render thread/INFO]: "/home/lachlan/.local/share/PrismLauncher/instances/PrismLauncherModPack/.minecraft/config/byg/end-biomes.json5" was read.
+[15:43:25] [Render thread/INFO]: "/home/lachlan/.local/share/PrismLauncher/instances/PrismLauncherModPack/.minecraft/config/byg/nether-biomes.json5" was read.
+[15:43:25] [Render thread/INFO]: "/home/lachlan/.local/share/PrismLauncher/instances/PrismLauncherModPack/.minecraft/config/byg/trades.json5" was read.
+[15:43:25] [Render thread/INFO]: "/home/lachlan/.local/share/PrismLauncher/instances/PrismLauncherModPack/.minecraft/config/byg/biomepedia.json5" was read.
+[15:43:25] [Render thread/INFO]: Created compressed zip back up for "/home/lachlan/.local/share/PrismLauncher/instances/PrismLauncherModPack/.minecraft/config/byg" in "/home/lachlan/.local/share/PrismLauncher/instances/PrismLauncherModPack/.minecraft/config/byg/backups/last_working_configs_backup.zip"
+[15:43:25] [Render thread/INFO]: BYG: Compostible Blocks Added!
+[15:43:25] [Render thread/INFO]: BYG: Added tillables!
+[15:43:25] [Render thread/INFO]: BYG: Added Flammables!
+[15:43:25] [Render thread/INFO]: BYG: "Load Complete" Event Complete!
+[15:43:25] [Render thread/INFO]: BYG: Added strippable Blocks...
+[15:43:25] [Render thread/INFO]: "Oh The Biomes You'll Go" after registries freeze event complete!
+[15:43:25] [Render thread/INFO]: There is a newer version of Puzzle available: Puzzle 1.4.1-1.18
+[15:43:25] [Render thread/INFO]: Please update immediately!
+[15:43:25] [Render thread/INFO]: [STDOUT]: (MidnightLib) Player hats successfully loaded!
+[15:43:25] [Render thread/INFO]: Loading Xaero's Minimap - Stage 2/2
+[15:43:26] [Worker-Main-1/WARN]: Exception loading blockstate definition: byg:blockstates/potted_hydrangea_bush.json: java.io.FileNotFoundException: byg:blockstates/potted_hydrangea_bush.json
+[15:43:26] [Worker-Main-1/WARN]: Exception loading blockstate definition: 'byg:blockstates/potted_hydrangea_bush.json' missing model for variant: 'byg:potted_hydrangea_bush#'
+[15:43:27] [Render thread/INFO]: Xaero's Minimap: World Map found!
+[15:43:27] [Render thread/INFO]: Xaero's Minimap: Open Parties And Claims found!
+[15:43:27] [Render thread/INFO]: No Optifine!
+[15:43:27] [Render thread/INFO]: Xaero's Minimap: No Vivecraft!
+[15:43:27] [Render thread/INFO]: Loading Xaero's World Map - Stage 2/2
+[15:43:27] [Render thread/INFO]: New world map region cache hash code: -1088259120
+[15:43:27] [Render thread/INFO]: Xaero's WorldMap Mod: Xaero's minimap found!
+[15:43:27] [Render thread/INFO]: Xaero's WorldMap Mod: Open Parties And Claims found!
+[15:43:27] [Render thread/INFO]: No Optifine!
+[15:43:27] [Render thread/INFO]: Xaero's World Map: No Vivecraft!
+[15:43:28] [Worker-Main-1/WARN]: Unable to load model: 'illagerexp:magic_fire#inventory' referenced from: illagerexp:magic_fire#inventory: java.io.FileNotFoundException: illagerexp:models/item/magic_fire.json
+[15:43:36] [Render thread/WARN]: getErrorETFTexture() was called, investigate this if called too much
+[15:43:36] [Render thread/INFO]: emissive suffixes loaded: {_e}
+[15:43:37] [Render thread/INFO]: OpenAL initialized on device JACK Default
+[15:43:37] [Render thread/INFO]: Sound engine started
+[15:43:37] [Render thread/INFO]: Created: 2048x2048x4 minecraft:textures/atlas/blocks.png-atlas
+[15:43:37] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[15:43:37] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[15:43:37] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[15:43:37] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[15:43:37] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[15:43:37] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[15:43:40] [Render thread/WARN]: Shader botania__pylon could not find uniform named Light0_Direction in the specified shader program.
+[15:43:40] [Render thread/WARN]: Shader botania__pylon could not find uniform named Light1_Direction in the specified shader program.
+[15:43:40] [Render thread/WARN]: Shader botania__film_grain_particle could not find sampler named Sampler2 in the specified shader program.
+[15:43:41] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[15:43:41] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[15:43:41] [Render thread/INFO]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[15:43:41] [Render thread/INFO]: Loaded all shader sources.
+[15:43:41] [Render thread/INFO]: Reloading grave model (client)
+[15:43:41] [Render thread/INFO]: Reloading dimension name overrides for grave GUI
+[15:43:41] [Render thread/INFO]: Not reloading resource pack-based books as client world is missing
+[15:43:41] [Render thread/INFO]: BookContentResourceListenerLoader preloaded 264 jsons
+[15:43:41] [Render thread/INFO]: Successfully reloaded the minimap shaders!
+[15:43:41] [Render thread/INFO]: Successfully reloaded the world map shaders!
+[15:43:59] [Render thread/INFO]: emissive suffixes loaded: {_e}
+[15:43:59] [Render thread/INFO]: Connecting to 192.168.122.75, 25565
+[15:44:00] [Netty Epoll Client IO #0/INFO]: Connected to a modded server.
+[15:44:00] [Netty Epoll Client IO #0/INFO]: Decoded Weapon Attribute registry in 3 string chunks
+[15:44:00] [Render thread/INFO]: New minimap session initialized!
+[15:44:00] [Render thread/INFO]: New world map session initialized!
+[15:44:01] [Render thread/INFO]: Started 6 worker threads
+[15:44:01] [Render thread/INFO]: Started 6 worker threads
+[15:44:01] [Render thread/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[15:44:01] [Render thread/INFO]: Sending secret request to the server
+[15:44:05] [Render thread/INFO]: [WTHIT] Received config from the server: {"minecraft:attribute.health":true,"minecraft:furnace_contents":true,"minecraft:spawner_type":true,"minecraft:attribute.armor":true,"minecraft:note_block.type":true,"minecraft:pet.owner":true,"minecraft:level.composter":true,"minecraft:attribute.absorption":true,"minecraft:override.infested":true,"minecraft:redstone.level":true,"minecraft:timer.grow":true,"minecraft:redstone.lever":true,"minecraft:level.honey":true,"minecraft:item_entity":true,"minecraft:breaking_progress.enabled":true,"minecraft:jukebox.record":true,"minecraft:crop_progress":true,"minecraft:redstone.repeater":true,"minecraft:timer.breed":true,"minecraft:player_head.name":true,"minecraft:redstone.comparator":true,"minecraft:override.powder_snow":true,"minecraft:override.trapped_chest":true}
+[15:44:05] [Render thread/INFO]: Minimap updated server level id: 398740204 for world ResourceKey[minecraft:dimension / minecraft:overworld]
+[15:44:05] [Render thread/INFO]: Loaded 147 advancements
+[15:44:05] [Render thread/INFO]: BookContentResourceListenerLoader: Files found in 503.0 μs
+[15:44:05] [Render thread/INFO]: BookContentResourceListenerLoader: Files found in 586.5 μs
+[15:44:05] [Render thread/INFO]: BookContentResourceListenerLoader: Files found in 946.7 μs
+[15:44:06] [Render thread/WARN]: Recipe kubejs:kjs_ddr49hr25s94zfrzf9je1dhk8 (of type minecraft:crafting) not found
+[15:44:06] [Render thread/WARN]: Recipe kubejs:kjs_7mb1f48vu0qggyi6q4aqgpowp (of type minecraft:crafting) not found
+[15:44:06] [Render thread/INFO]: Received secret
+[15:44:06] [Render thread/INFO]: Connecting to server: '192.168.122.75:24454'
+[15:44:06] [VoiceChatAuthenticationThread/INFO]: Trying to authenticate voice connection
+[15:44:06] [Thread-18/INFO]: [STDOUT]: [emi] Reloaded plugin from EMI in 530ms
+[15:44:06] [Thread-18/INFO]: [STDOUT]: [emi] Reloaded plugin from Scout in 1ms
+[15:44:06] [VoiceChatConnectionThread/INFO]: Server acknowledged authentication
+[15:44:06] [Thread-18/INFO]: [STDOUT]: [emi] Reloaded plugin from Emicompat in 25ms
+[15:44:06] [NativeInitializationThread/INFO]: Using Opus version 'libopus 1.3.1'
+[15:44:06] [Thread-18/INFO]: [STDOUT]: [emi] Reloaded plugin from Botania in 108ms
+[15:44:06] [Thread-18/INFO]: [STDOUT]: [emi] Reloaded plugin from EMI Trades in 94ms
+[15:44:06] [Render thread/INFO]: Stopping worker threads
+[15:44:06] [Render thread/INFO]: Started 6 worker threads
+[15:44:06] [Thread-18/INFO]: [STDOUT]: [emi] Reloaded plugin from Create in 234ms
+[15:44:06] [Render thread/INFO]: Reloading entity icon resources...
+[15:44:06] [Render thread/INFO]: Done!
+[15:44:07] [Thread-18/INFO]: [STDOUT]: [emi] Baked 14873 recipes in 691ms
+[15:44:07] [Thread-18/INFO]: [STDOUT]: [emi] Discovered Sodium
+[15:44:07] [Thread-18/INFO]: [STDOUT]: [emi] Reloaded EMI in 1892ms
+[15:44:14] [Render thread/INFO]: Loaded 148 advancements
+[15:44:15] [CullThread/INFO]: [STDOUT]: Shutting down culling task!
+[15:44:15] [Render thread/INFO]: Stopping!
+[15:44:15] [Render thread/INFO]: Clearing audio channels
+[15:44:15] [Render thread/INFO]: Stopping microphone thread
+[15:44:15] [Render thread/INFO]: Disconnecting voicechat
+[15:44:15] [Render thread/INFO]: Minimap session finalized.
+[15:44:15] [Render thread/INFO]: Finalizing world map session...
+[15:44:15] [Thread-8/INFO]: World map force-cleaned!
+[15:44:15] [Render thread/INFO]: World map session finalized.
+[15:44:15] [Render thread/INFO]: Stopping worker threads
+[15:44:15] [Render thread/INFO]: emissive suffixes loaded: {_e}

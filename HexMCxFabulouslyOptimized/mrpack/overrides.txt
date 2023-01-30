@@ -1,0 +1,96 @@
+resourcepacks/HexMC Resources/assets/minecraft/textures/gui/options_background.png
+resourcepacks/HexMC Resources/assets/minecraft/textures/gui/widgets.png
+resourcepacks/HexMC Resources/assets/minecraft/textures/gui/accessibility.png
+resourcepacks/HexMC Resources/assets/minecraft/textures/gui/title/minecraft.png
+resourcepacks/HexMC Resources/assets/minecraft/textures/gui/title/edition.png
+resourcepacks/HexMC Resources/assets/minecraft/textures/gui/title/background/panorama_1.png
+resourcepacks/HexMC Resources/assets/minecraft/textures/gui/title/background/panorama_3.png
+resourcepacks/HexMC Resources/assets/minecraft/textures/gui/title/background/panorama_4.png
+resourcepacks/HexMC Resources/assets/minecraft/textures/gui/title/background/panorama_2.png
+resourcepacks/HexMC Resources/assets/minecraft/textures/gui/title/background/panorama_0.png
+resourcepacks/HexMC Resources/assets/minecraft/textures/gui/title/background/panorama_overlay.png
+resourcepacks/HexMC Resources/assets/minecraft/textures/gui/title/background/panorama_5.png
+resourcepacks/HexMC Resources/assets/menumusic/sounds.json
+resourcepacks/HexMC Resources/assets/menumusic/sounds/track2.ogg
+resourcepacks/HexMC Resources/assets/menumusic/sounds/track1.ogg
+resourcepacks/HexMC Resources/assets/hexmc/patchouli/hexmc_server/emotes/wheel-emotes.png
+resourcepacks/HexMC Resources/assets/hexmc/patchouli/hexmc_server/emotes/wheel-settings.png
+resourcepacks/HexMC Resources/assets/hexmc/patchouli/hexmc_server/emotes/dancing.png
+resourcepacks/HexMC Resources/assets/hexmc/patchouli/hexmc_server/voice_chat/page2-settings.png
+resourcepacks/HexMC Resources/assets/hexmc/patchouli/hexmc_server/voice_chat/page1-settings.png
+resourcepacks/HexMC Resources/assets/hexmc/patchouli/hexmc_server/voice_chat/page3-settings.png
+resourcepacks/HexMC Resources/pack.png
+resourcepacks/HexMC Resources/pack.mcmeta
+mods/XaerosWorldMap_1.28.0_Fabric_1.18.2.jar
+mods/TerraBlender-fabric-1.18.2-1.2.0.126.jar
+mods/OpenLoader-Fabric-1.18.2-12.0.1.jar
+mods/Xaeros_Minimap_22.15.1_Fabric_1.18.2.jar
+config/Adorn.json5
+config/debugify.json
+config/customsplashscreen/hexmc.png
+config/customsplashscreen/background.png
+config/isxander-main-menu-credits.json
+config/yosbr/config/sodium-options.json
+config/yosbr/config/debugify.json
+config/yosbr/config/dynamicfps.toml
+config/yosbr/config/borderlessmining.json
+config/yosbr/config/lambdabettergrass.toml
+config/yosbr/config/capes.json5
+config/yosbr/config/emi.css
+config/yosbr/config/modmenu.json
+config/yosbr/config/iris.properties
+config/yosbr/config/lambdynlights.toml
+config/yosbr/options.txt
+config/yosbr/kubejs/server_scripts/custom.js
+config/openloader/bettercompat/data/minecraft/tags/functions/tick.json
+config/openloader/bettercompat/data/minecraft/tags/functions/load.json
+config/openloader/bettercompat/data/farmersdelight/weapon_attributes/skillet.json
+config/openloader/bettercompat/data/farmersdelight/functions/tick.mcfunction
+config/openloader/bettercompat/data/farmersdelight/functions/load.mcfunction
+config/openloader/bettercompat/pack.mcmeta
+config/desiredServers/desiredservers.json
+config/customsplashscreen.json5
+patchouli_books/hexmc_server/book.json
+patchouli_books/hexmc_server/en_us/categories/server.json
+patchouli_books/hexmc_server/en_us/entries/voice_chat.json
+patchouli_books/hexmc_server/en_us/entries/server_book.json
+patchouli_books/hexmc_server/en_us/entries/emotes.json
+patchouli_books/hexmc_server/en_us/entries/community_chests.json
+patchouli_books/hexmc_server/en_us/entries/rules.json
+patchouli_books/hexmc_server/en_us/entries/support.json
+patchouli_books/hexmc_server/en_us/entries/approved_mods.json
+patchouli_books/hexmc_server/en_us/entries/claiming.json
+patchouli_books/hexmc_server/en_us/entries/shops.json
+patchouli_books/hexmc_handbook/book.json
+patchouli_books/hexmc_handbook/en_us/categories/boss_fights.json
+patchouli_books/hexmc_handbook/en_us/categories/lexica_botania.json
+patchouli_books/hexmc_handbook/en_us/categories/satchels.json
+patchouli_books/hexmc_handbook/en_us/categories/create.json
+patchouli_books/hexmc_handbook/en_us/categories/combat.json
+patchouli_books/hexmc_handbook/en_us/categories/emi.json
+patchouli_books/hexmc_handbook/en_us/categories/farming.json
+patchouli_books/hexmc_handbook/en_us/entries/boss_fights/resummoning.json
+patchouli_books/hexmc_handbook/en_us/entries/boss_fights/mystery.json
+patchouli_books/hexmc_handbook/en_us/entries/boss_fights/ice.json
+patchouli_books/hexmc_handbook/en_us/entries/boss_fights/underground.json
+patchouli_books/hexmc_handbook/en_us/entries/boss_fights/mansion.json
+patchouli_books/hexmc_handbook/en_us/entries/boss_fights/nether.json
+patchouli_books/hexmc_handbook/en_us/entries/boss_fights/end.json
+patchouli_books/hexmc_handbook/en_us/entries/create/introduction.json
+patchouli_books/hexmc_handbook/en_us/entries/emi/getting_started.json
+patchouli_books/hexmc_handbook/en_us/entries/emi/tips_and_tricks.json
+patchouli_books/hexmc_handbook/en_us/entries/farming/introduction.json
+patchouli_books/hexmc_handbook/en_us/entries/combat/dual_wielding.json
+patchouli_books/hexmc_handbook/en_us/entries/combat/rolling.json
+patchouli_books/hexmc_handbook/en_us/entries/lexicon/upgrading.json
+patchouli_books/hexmc_handbook/en_us/entries/lexicon/crafting.json
+patchouli_books/hexmc_handbook/en_us/entries/satchels/satchel.json
+patchouli_books/hexmc_handbook/en_us/entries/satchels/pouch.json
+bin/version.json
+kubejs/startup_scripts/script.js
+kubejs/assets/kubejs/textures/item/hyper_roly_poly.png
+kubejs/assets/kubejs/textures/item/roly_poly.png.mcmeta
+kubejs/assets/kubejs/textures/item/roly_poly.png
+kubejs/assets/kubejs/textures/item/hyper_roly_poly.png.mcmeta
+kubejs/server_scripts/script.js
+kubejs/client_scripts/script.js

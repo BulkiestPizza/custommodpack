@@ -1,0 +1,16 @@
+{
+    "name": "Approved Mods",
+    "icon": "create:wrench",
+    "category": "patchouli:server",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Allowed modifications are under loose guidelines, to be approved they must follow this rule set: $(li)Not provide major advantage over other users (eg. xray)$() $(li)Not intentionally harm the server$() $(li)Not enable harasment of users (auto spammers)$()"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Example approved mods",
+            "text": "Maps, eg. Xaeros Mini/World, JourneyMap$(li)Provides slight advantage however allows for greater exploration.$(br2)Zoomify, Ok Zoomer $(li)Basically a hotkey for a Spyglass, not a very big advantage.    "
+        }
+    ]
+}
