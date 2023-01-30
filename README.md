@@ -4,12 +4,12 @@ Minecraft Modpack merging HexMC and fabulously optimised
 ## Install 
 This modpack uses the quilt loader, instead of forge for faster, more optimised gameplay, It is recommended to use the [Prism Launcher](https://prismlauncher.org/download/) to install the modpack
 ### Prism Launcher
-Open Prism Launcher then navigate to Add instance -> Import from Zip with the pack downloaded from [releases](https://github.com/BulkiestPizza/custommodpack/releases/tag/Release) named HexMCxFabulouslyOptimised.zip after that launch the instance that you just imported
+Open Prism Launcher then navigate to Add instance -> Import from Zip with the pack downloaded from [releases](https://github.com/BulkiestPizza/custommodpack/releases/) named HexMCxFabulouslyOptimised.zip after that launch the instance that you just imported
 
 ### Manunal install - Using Minecraft Launcher
 First download the quilt loader from [quiltmc](https://quiltmc.org/en/install/client/) choose version 1.18.2, keep loader version the default and install location default then click install
 
-Next open Minecraft launcher, go to Installations in the top bar, hover over quilt-loader and click on the folder icon, when the file manager comes up create a folder named "mods" and extract the ziip downloaded from [releases](https://github.com/BulkiestPizza/custommodpack/releases/tag/Release) Named OnlyMods.into the folder, after that change the installation on the front page to quilt loader and it should work
+Next open Minecraft launcher, go to Installations in the top bar, hover over quilt-loader and click on the folder icon, when the file manager comes up create a folder named "mods" and extract the ziip downloaded from [releases](https://github.com/BulkiestPizza/custommodpack/releases/) Named OnlyMods.into the folder, after that change the installation on the front page to quilt loader and it should work
 
 ## Final Notes
 If you are suffering performance issues it is recommended to adjust the amount of memory assigned to the game, pefhaps from 2 to 4GB or even 8GB
